@@ -1,0 +1,75 @@
+Windows Server Management and Security
+University of Colorado System
+
+WEEK 1
+Introduction to practical Windows system management
+In this module we'll discuss how Windows is used in an enterprise setting.
+5 videos, 5 readings
+	1.	Video: Welcome!
+	2.	Reading: About This Course
+	3.	Reading: Resources for building your own test environment
+	4.	Video: About the Instructor
+	5.	Reading: Windows 2016 Homepage from Microsoft
+	6.	Video: Windows in the enterprise
+	7.	Video: Windows Server install
+	8.	Reading: Windows Server - Getting Started
+	9.	Video: Networking in Windows
+	10.	Discussion Prompt: Windows anyone?
+	11.	Reading: Lecture Slides
+
+Show less
+Graded: Introduction to Windows
+
+WEEK 2
+Users and authentication in a Windows environment
+In this module we'll discuss how users are created, grouped and managed in an enterprise environment.
+3 videos, 2 readings
+	1.	Video: Windows Logon process
+	2.	Reading: Kerberos
+	3.	Reading: Kerberos Explained
+	4.	Video: Active Directory
+	5.	Video: Group Policy
+	6.	Discussion Prompt: How have you authenticated today?
+
+Show less
+Graded: Users and Authentication
+
+WEEK 3
+Users and authorization in a Windows environment
+This module looks at users and authorization. Access control is discussed in conjunction with rights and privileges.
+4 videos, 3 readings
+	1.	Video: What is authorization?
+	2.	Video: Rights and Permissions
+	3.	Video: Access Control
+	4.	Video: Managing users on an enterprise level
+	5.	Reading: Windows Authorization Manager Model
+	6.	Reading: What is RBAC?
+	7.	Reading: Lecture Slides
+
+Show less
+Graded: Users and authorization
+
+WEEK 4
+Securing Windows in the enterprise
+Security within Windows is generally pretty good, however, windows needs to be configured in order to increase overall system security.
+4 videos, 3 readings
+	1.	Video: Built in security controls
+	2.	Reading: Windows Server 2016 Security Resources
+	3.	Video: Restricting access to software and resources
+	4.	Reading: AppLocker Explanation
+	5.	Video: Security considerations for Windows systems
+	6.	Video: Windows and Encryption
+	7.	Reading: Lecture Slides
+
+Show less
+Graded: Windows Security
+
+WEEK 5
+Course Project - Kerberos
+
+1 reading
+	1.	Reading: Kerberos Explained- the MIT play
+
+Show less
+Graded: Explaining Kerberos
+
