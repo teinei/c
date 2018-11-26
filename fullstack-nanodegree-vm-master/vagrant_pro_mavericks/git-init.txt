@@ -1,0 +1,7 @@
+…or create a new repository on the command line
+echo "# vagrant" >> README.md
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin https://teinei:gh103104@github.com/teinei/vagrant.git
+$ git push -u origin master

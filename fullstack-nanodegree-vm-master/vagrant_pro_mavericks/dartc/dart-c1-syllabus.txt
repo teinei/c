@@ -1,0 +1,125 @@
+ Unit 1.0: Welcome and the History of C
+ Need any help?
+===================================================
+ Unit 1.1: Printing, loops, and comments
+  1101 Introducing Unit 1.1
+  1102 Writing your first program
+  1103 Correcting simple syntax errors
+    1103a Experience the effect of syntax errors
+    1103b Activity: correct simple syntax errors
+    1103c A question on this activity?
+  1104 Printing text and new lines
+    1104a Print text and new lines
+    1104b Activity: print text over several lines
+    1104c A question on this activity?
+  1105 Printing multiple lines with one printf statement
+    1105a Print multiple lines with one printf statement
+    1105b Activity: create ASCII art by printing multiple lines
+    1105c A question on this activity?
+  1106 Printing quotation marks, escaping special characters
+    1106a Print quotation mark and escape special characters
+    1106b Activity: print special characters
+    1106c A question on this activity?
+  1107 Repeating one instruction with a for loop
+  1108 Simple looping errors
+  1109 Commenting your code
+  11x0 Structure of a simple C program
+  11x1 Learning checklist
+===================================================
+ Unit 1.2: Integers, variables and user input
+  1201 Introducing Unit 1.2
+    What you will learn in this unit
+  1202 Printing and computing with integers
+    Use format specifier %d to print integer value
+    Perform simple integer arithmetic (+, -, *, ())
+    Activity: perform simple arithmetic in C
+    A question on this activity?
+  1203 Using variables
+    Store integers in variables
+    Change the value of a variable
+    Review: Declare and initialize integer variables
+    Activity: assign, re-assign and update a variable
+    A question on this activity?
+  1204 Declaring and naming variables
+    Declare and initialize variables in 1-step
+    Name your variables: do's and don'ts
+    Correct common syntax errors involving variables
+    Activity: declare and name variables
+    A question on this activity?
+  1205 Repeating instructions with variables
+    Use variables in loops
+    Activity: print the x8 multiplication table
+    A question on this activity?
+  1206 Reading user input
+    Read integer user input using scanf()
+    Read multiple integers using one scanf() statement
+    Activity: read an integer and print the corresponding multiplication table
+    A question on this activity?
+  1207 Reading user input inside a loop
+    Use scanf() inside a loop to read multiple user inputs
+    Activity: read and process multiple integers via a loop
+    A question on this activity?
+  1208 Learning checklist
+    Self-assess your learning
+===================================================
+ Unit 1.3: Characters and doubles
+  Introducing Unit 1.3
+    What you will learn in this unit
+  Using characters
+    Declare, assign and print characters with the %c format specifier
+    Activity: print characters with %c
+    A question on this activity?
+  Reading characters from the user input
+    Read characters from the user input
+    Activity: read characters from user input and produce ASCII art!
+    A question on this activity?
+  Using decimals
+    Declare, assign and print decimal numbers
+    Read decimal numbers from user input with scanf()
+    Read integers and doubles with scanf()
+    Read integers and doubles with one scanf() statement
+    Activity: read a decimal number
+    A question on this activity?
+  Dividing in C
+    Divide in C
+    Divide with integer and double variables
+    Activity: divide numbers
+    A question on this activity?
+  Finding the remainder
+  Activity  This content is grded
+    Find the remainder in integer division
+    Activity: find the remainder in integer division
+    A question on this activity?
+  Converting integers to decimals   
+    Convert integers to double
+    Activity: convert integers to double
+    A question on this activity?
+  Converting decimals to integers   
+    Convert double to integers
+    Activity: convert double to integers
+    A question on this activity?
+  Practicing division    
+    Activity: divide decimals
+    A question on this activity?
+    Activity: divide decimals with round off
+    A question on this activity?
+  Learning checklist
+    Self-assess your learning
+===================================================
+ Unit 1.4: Concluding the course
+ Let's continue coding
+    What's next?
+    Enroll to the next course of the program
+ We value your feedback
+    End of course feedback
+===================================================
+Course Tools
+ Bookmarks
+ Updates
+ Upgrade to Verified
+Important Course Dates
+Today is Nov 26, 2018 01:26 AWST
+Course End
+in 4 months - Mar 19, 2019
+
+After this date, course content will be archived.
