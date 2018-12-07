@@ -1,0 +1,363 @@
+1
+00:00:00,000 --> 00:00:02,000
+We have now learned
+
+2
+00:00:02,100 --> 00:00:03,500
+how to create variables
+
+3
+00:00:03,600 --> 00:00:05,000
+and assign values to them.
+
+4
+00:00:06,300 --> 00:00:08,300
+I want to return to a very important point
+
+5
+00:00:08,400 --> 00:00:11,400
+that distinguishes the codecast tool,
+
+6
+00:00:11,500 --> 00:00:13,200
+that we are working in it right now
+
+7
+00:00:13,300 --> 00:00:15,000
+that we're using  to record this lectures
+
+8
+00:00:15,100 --> 00:00:17,100
+and that you are using to watch this lectures
+
+9
+00:00:17,200 --> 00:00:20,000
+and other tools that you might use later on
+
+10
+00:00:20,100 --> 00:00:22,100
+for C programming purposes.
+
+11
+00:00:22,200 --> 00:00:24,100
+Let's start by reviewing how to
+
+12
+00:00:24,200 --> 00:00:29,000
+declare and assign values to variables.
+
+13
+00:00:29,100 --> 00:00:32,500
+To declare a variable with type int
+
+14
+00:00:32,600 --> 00:00:34,000
+for integer type variable
+
+15
+00:00:34,100 --> 00:00:36,000
+and then the variable name
+
+16
+00:00:36,100 --> 00:00:37,100
+I'll just call it variable for now
+
+17
+00:00:37,200 --> 00:00:41,000
+So this is also called the variable declaration.
+
+18
+00:00:43,300 --> 00:00:46,000
+In order to assign a value to the variable
+
+19
+00:00:46,100 --> 00:00:48,100
+we then type the variable name
+
+20
+00:00:48,200 --> 00:00:49,200
+an equal sign
+
+21
+00:00:49,300 --> 00:00:53,300
+and the value that we wish to put into the variable
+
+22
+00:00:53,400 --> 00:00:54,400
+so "2" for example
+
+23
+00:00:54,500 --> 00:00:58,000
+This is the assignment
+
+24
+00:00:59,100 --> 00:01:02,100
+or we can call that a definition
+
+25
+00:01:03,800 --> 00:01:05,200
+or because it's the first time
+
+26
+00:01:05,300 --> 00:01:07,200
+that variable gets a value,
+
+27
+00:01:07,300 --> 00:01:11,000
+we also call that the initialization.
+
+28
+00:01:12,400 --> 00:01:13,400
+All is good.
+
+29
+00:01:14,000 --> 00:01:17,200
+But what happens right after
+
+30
+00:01:17,300 --> 00:01:19,500
+this line has been executed?
+
+31
+00:01:20,000 --> 00:01:22,200
+So the variable has been declared
+
+32
+00:01:22,300 --> 00:01:25,100
+but we have not yet assigned a value to it.
+
+33
+00:01:25,200 --> 00:01:30,900
+And that's where Codecast differs from other tools
+
+34
+00:01:31,000 --> 00:01:32,000
+that you might use later on.
+
+35
+00:01:32,900 --> 00:01:35,100
+Codecast automatically
+
+36
+00:01:35,200 --> 00:01:39,000
+assigns a value of 0 to the variable
+
+37
+00:01:39,100 --> 00:01:41,100
+after it has been declared.
+
+38
+00:01:41,200 --> 00:01:43,200
+So, at this stage,
+
+39
+00:01:45,300 --> 00:01:52,000
+in Codecast, variable will have the value 0.
+
+40
+00:01:53,500 --> 00:01:55,300
+This is not true
+
+41
+00:01:55,400 --> 00:02:01,100
+in other C programming utilities.
+
+42
+00:02:02,800 --> 00:02:05,800
+In particular, this is not true
+
+43
+00:02:05,900 --> 00:02:08,400
+in the tools like Taskgrader
+
+44
+00:02:08,500 --> 00:02:10,800
+that we'll be using to validate the code
+
+45
+00:02:10,900 --> 00:02:12,500
+that you submit in this MOOC.
+
+46
+00:02:13,100 --> 00:02:15,400
+And so this is not something to get used to
+
+47
+00:02:15,500 --> 00:02:17,500
+it's a nice feature of Codecast
+
+48
+00:02:17,600 --> 00:02:19,600
+but not something to get used to.
+
+49
+00:02:19,700 --> 00:02:23,500
+Instead, whenever you declare a variable,
+
+50
+00:02:23,600 --> 00:02:27,000
+you also should initialize it right away.
+
+51
+00:02:27,100 --> 00:02:29,100
+So that you will never find yourself
+
+52
+00:02:29,200 --> 00:02:31,400
+in this situation where a variable has been declared
+
+53
+00:02:31,500 --> 00:02:32,500
+but not initialized.
+
+54
+00:02:33,600 --> 00:02:36,800
+Whereas Codecast automatically initializes it at 0
+
+55
+00:02:37,000 --> 00:02:38,200
+other tools will not.
+
+56
+00:02:39,000 --> 00:02:41,300
+So what would variable be
+
+57
+00:02:41,400 --> 00:02:43,300
+in one of these other tools?
+
+58
+00:02:43,800 --> 00:02:47,400
+It turns out variable is just a memory box.
+
+59
+00:02:47,500 --> 00:02:50,400
+So what happens when you declare a variable?
+
+60
+00:02:50,500 --> 00:02:53,700
+Space in memory is reserved to hold
+
+61
+00:02:53,800 --> 00:02:55,900
+whatever you place into that variable.
+
+62
+00:02:56,000 --> 00:02:58,800
+But whatever was sitting in that memory location
+
+63
+00:02:58,900 --> 00:03:00,900
+from a previous run of a program
+
+64
+00:03:01,000 --> 00:03:03,000
+or from who knows what else was just happening
+
+65
+00:03:03,100 --> 00:03:05,400
+that would then be interpreted
+
+66
+00:03:05,500 --> 00:03:07,500
+as the current value of your variable.
+
+67
+00:03:07,600 --> 00:03:09,000
+So you've got to make sure
+
+68
+00:03:09,100 --> 00:03:10,500
+that you've overwrite it with the variable 
+
+69
+00:03:10,600 --> 00:03:13,800
+value that you actually want to store in there
+
+70
+00:03:13,900 --> 00:03:15,500
+rather than keeping in there
+
+71
+00:03:15,600 --> 00:03:17,100
+whatever garbage just left 
+
+72
+00:03:17,200 --> 00:03:19,200
+from a previous program execution.
+
+73
+00:03:19,900 --> 00:03:21,400
+So this is really important
+
+74
+00:03:21,500 --> 00:03:23,500
+in particular in Taskgrader,
+
+75
+00:03:23,600 --> 00:03:25,500
+that tool we use to validate your code,
+
+76
+00:03:25,600 --> 00:03:29,200
+variables will not be automatically initialized.
+
+77
+00:03:29,300 --> 00:03:31,100
+So best practice:
+
+78
+00:03:31,200 --> 00:03:33,000
+whenever you declare a variable
+
+79
+00:03:33,100 --> 00:03:34,300
+you also initialize it.
+
+80
+00:03:34,400 --> 00:03:36,300
+In fact this is so important
+
+81
+00:03:36,400 --> 00:03:39,100
+that you can actually do this in one step.
+
+82
+00:03:39,200 --> 00:03:42,000
+So you can actually type int
+
+83
+00:03:42,100 --> 00:03:45,400
+variable equals 2
+
+84
+00:03:45,500 --> 00:03:48,200
+and that is a variable declaration
+
+85
+00:03:48,300 --> 00:03:51,200
+and initialization
+
+86
+00:03:51,300 --> 00:03:54,100
+all in one step.
+
+87
+00:03:55,100 --> 00:03:57,000
+Then nothing can go wrong.
+
+88
+00:03:57,500 --> 00:03:59,100
+Even codecast can't get in your way and do anything for you.
+
+89
+00:04:01,500 --> 00:04:04,200
+This one line declares
+
+90
+00:04:04,300 --> 00:04:06,300
+and initializes a variable
+
+91
+00:04:06,400 --> 00:04:08,000
+all in one step.

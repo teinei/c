@@ -1,0 +1,173 @@
+1
+00:00:00,000 --> 00:00:01,110
+
+
+2
+00:00:01,110 --> 00:00:04,350
+Next, we'll learn how to
+add comments to your code.
+
+3
+00:00:04,350 --> 00:00:08,440
+Comments are there to help you
+explain to yourself and others
+
+4
+00:00:08,440 --> 00:00:09,990
+how your code is working.
+
+5
+00:00:09,990 --> 00:00:12,520
+Because often, it can happen
+when you look at your own code
+
+6
+00:00:12,520 --> 00:00:16,079
+five weeks after you wrote it, you
+can't really understand it anymore.
+
+7
+00:00:16,079 --> 00:00:20,700
+So comments are very important to
+help explain what your code does.
+
+8
+00:00:20,700 --> 00:00:23,910
+Here again, we see the
+program we wrote earlier,
+
+9
+00:00:23,910 --> 00:00:31,980
+which writes BlahBlehBlih three times to
+the screen and then BlohBlue six times
+
+10
+00:00:31,980 --> 00:00:33,790
+on a new line.
+
+11
+00:00:33,790 --> 00:00:35,580
+So we wanted to add some comments here.
+
+12
+00:00:35,580 --> 00:00:40,900
+For example, right here, we would,
+for example, type two forward slashes.
+
+13
+00:00:40,900 --> 00:00:42,900
+That tells that a comment is coming.
+
+14
+00:00:42,900 --> 00:00:45,560
+You can ignore this for
+the compiler purposes.
+
+15
+00:00:45,560 --> 00:00:47,470
+This is only for the reader.
+
+16
+00:00:47,470 --> 00:00:50,276
+So we might type something
+like, "A for loop
+
+17
+00:00:50,276 --> 00:00:57,025
+that prints BlahBlehBlih three times."
+
+18
+00:00:57,025 --> 00:01:00,120
+
+
+19
+00:01:00,120 --> 00:01:02,700
+And you can see that
+the editor automatically
+
+20
+00:01:02,700 --> 00:01:06,270
+chose a different color
+for this text that I typed
+
+21
+00:01:06,270 --> 00:01:08,220
+right here, because it's a comment.
+
+22
+00:01:08,220 --> 00:01:11,450
+And so that stands out in my editor.
+
+23
+00:01:11,450 --> 00:01:14,610
+Another comment I might want
+to add is when the loop ends.
+
+24
+00:01:14,610 --> 00:01:18,910
+So you could type something
+like "End of for loop."
+
+25
+00:01:18,910 --> 00:01:21,610
+Also that we want to start a new line.
+
+26
+00:01:21,610 --> 00:01:25,380
+So "start new line" might be another
+thing you might want to type here.
+
+27
+00:01:25,380 --> 00:01:28,530
+And again, you can see the color of
+this text is different in the editor
+
+28
+00:01:28,530 --> 00:01:30,900
+because it's a comment.
+
+29
+00:01:30,900 --> 00:01:33,780
+And then you might want to
+add another comment here.
+
+30
+00:01:33,780 --> 00:01:41,960
+"For loop that prints
+BlohBluh six times".
+
+31
+00:01:41,960 --> 00:01:46,130
+All of these are comments
+started by two forward slashes.
+
+32
+00:01:46,130 --> 00:01:49,100
+And these are one line comments.
+
+33
+00:01:49,100 --> 00:01:51,940
+And they won't influence the
+execution of the program at all.
+
+34
+00:01:51,940 --> 00:01:55,400
+So if I compile this now
+and then run the code,
+
+35
+00:01:55,400 --> 00:01:57,830
+nothing has changed whatsoever.
+
+36
+00:01:57,830 --> 00:02:01,610
+What has changed, however, is
+that I added comments to my code
+
+37
+00:02:01,610 --> 00:02:05,762
+so that I can later better
+understand how my code operates.
+
+38
+00:02:05,762 --> 00:02:06,262

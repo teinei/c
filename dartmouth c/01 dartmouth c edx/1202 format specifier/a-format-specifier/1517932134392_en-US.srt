@@ -1,0 +1,376 @@
+1
+00:00:00,000 --> 00:00:00,710
+
+
+2
+00:00:00,710 --> 00:00:04,440
+PROFESSOR: Let's study how we can
+print and manipulate integer numbers
+
+3
+00:00:04,440 --> 00:00:06,050
+using the printf statement.
+
+4
+00:00:06,050 --> 00:00:07,390
+Let's start with an example.
+
+5
+00:00:07,390 --> 00:00:16,290
+Suppose I wanted to print out to the
+screen if I have 3 bills worth
+
+6
+00:00:16,290 --> 00:00:19,590
+$5 each.
+
+7
+00:00:19,590 --> 00:00:23,960
+And I have-- what do I have? $15.
+
+8
+00:00:23,960 --> 00:00:25,650
+And I can totally do that.
+
+9
+00:00:25,650 --> 00:00:28,650
+If I run this, and I'll do that in a
+second, it'll will print to screen.
+
+10
+00:00:28,650 --> 00:00:33,000
+If I have 3 bills worth
+$5 each, then I have $15.
+
+11
+00:00:33,000 --> 00:00:39,750
+Printf is called a function that
+takes a parameter inside parentheses.
+
+12
+00:00:39,750 --> 00:00:42,810
+So printf is the name of the function.
+
+13
+00:00:42,810 --> 00:00:47,070
+And we have an opening parenthesis here
+and a closing parenthesis right there.
+
+14
+00:00:47,070 --> 00:00:49,830
+And in between those comes a parameter.
+
+15
+00:00:49,830 --> 00:00:54,360
+This particular parameter here
+is called a string of characters.
+
+16
+00:00:54,360 --> 00:00:56,250
+Why is it called a string of characters?
+
+17
+00:00:56,250 --> 00:00:59,730
+Well, because it's literally
+one character after the next
+
+18
+00:00:59,730 --> 00:01:00,960
+that I put in there.
+
+19
+00:01:00,960 --> 00:01:05,550
+First an I, then an f, and then space,
+another I, and so forth, until I
+
+20
+00:01:05,550 --> 00:01:09,420
+get to this 3, which is also simply
+interpreted as a character that's
+
+21
+00:01:09,420 --> 00:01:12,100
+going to be printed to the screen.
+
+22
+00:01:12,100 --> 00:01:15,230
+But let's compile this and run the code.
+
+23
+00:01:15,230 --> 00:01:16,700
+And indeed it prints out.
+
+24
+00:01:16,700 --> 00:01:21,480
+If I have 3 bills worth
+$5 each, then, I have $15.
+
+25
+00:01:21,480 --> 00:01:23,900
+Let's go back to Edit mode.
+
+26
+00:01:23,900 --> 00:01:26,940
+The printf function is
+actually way more powerful.
+
+27
+00:01:26,940 --> 00:01:32,370
+It allows us to print out and format
+numbers in a number of different ways.
+
+28
+00:01:32,370 --> 00:01:33,950
+So let me show you how.
+
+29
+00:01:33,950 --> 00:01:38,870
+We can replace each
+number with a percent d.
+
+30
+00:01:38,870 --> 00:01:40,890
+And I'll explain why we are doing that.
+
+31
+00:01:40,890 --> 00:01:43,710
+d, it stands
+for an integer number.
+
+32
+00:01:43,710 --> 00:01:45,710
+So if we wanted to print
+other types of numbers,
+
+33
+00:01:45,710 --> 00:01:48,740
+like one that have decimal places
+we use something else.
+
+34
+00:01:48,740 --> 00:01:52,250
+This percent d is called
+a format specifier.
+
+35
+00:01:52,250 --> 00:01:55,460
+It specifies that wherever
+I've put the percent
+
+36
+00:01:55,460 --> 00:02:00,050
+d inside my string of characters,
+I wish a number to appear.
+
+37
+00:02:00,050 --> 00:02:05,390
+But how do I tell C what number I
+want printed in place of the percent d
+
+38
+00:02:05,390 --> 00:02:07,160
+format specifier?
+
+39
+00:02:07,160 --> 00:02:12,800
+Those numbers get passed in as
+additional parameters to the printf
+
+40
+00:02:12,800 --> 00:02:14,330
+function.
+
+41
+00:02:14,330 --> 00:02:18,530
+To do so, all you have to
+do is put a comma right
+
+42
+00:02:18,530 --> 00:02:21,470
+after the string of characters is over.
+
+43
+00:02:21,470 --> 00:02:23,720
+And then you place the
+numbers that you would
+
+44
+00:02:23,720 --> 00:02:26,610
+like to replace the percent ds with.
+
+45
+00:02:26,610 --> 00:02:30,350
+So the first percent d here,
+I wanted that to say 3.
+
+46
+00:02:30,350 --> 00:02:33,920
+So I put that 3 after
+the comma right here.
+
+47
+00:02:33,920 --> 00:02:39,930
+Then next percent d, I wanted that to
+say 5, because I want three $5 bills.
+
+48
+00:02:39,930 --> 00:02:43,970
+So I put a comma after the three,
+then a five, and another comma.
+
+49
+00:02:43,970 --> 00:02:48,020
+And now comes the next
+percent d. So that makes $15.
+
+50
+00:02:48,020 --> 00:02:53,010
+So I want this last percent
+d to be replaced with a 15.
+
+51
+00:02:53,010 --> 00:02:55,970
+And so the way this is
+understood, I'm giving
+
+52
+00:02:55,970 --> 00:02:59,520
+the printf function for parameters.
+
+53
+00:02:59,520 --> 00:03:03,510
+Namely, the first one
+is the whole string.
+
+54
+00:03:03,510 --> 00:03:05,450
+The second one is that three.
+
+55
+00:03:05,450 --> 00:03:06,950
+The third one is the five.
+
+56
+00:03:06,950 --> 00:03:10,400
+And the fourth one is this 15.
+
+57
+00:03:10,400 --> 00:03:13,640
+And what happens when I
+compile and run this program
+
+58
+00:03:13,640 --> 00:03:18,380
+is that the first percent d gets
+replaced with the first number that
+
+59
+00:03:18,380 --> 00:03:20,610
+comes right after the string.
+
+60
+00:03:20,610 --> 00:03:24,560
+The second percent d gets
+replaced with a second number
+
+61
+00:03:24,560 --> 00:03:26,480
+that comes right after the string.
+
+62
+00:03:26,480 --> 00:03:30,620
+And the third percent d gets
+replaced with a third number
+
+63
+00:03:30,620 --> 00:03:32,340
+that comes after the string.
+
+64
+00:03:32,340 --> 00:03:36,080
+So let's compile and run this code.
+
+65
+00:03:36,080 --> 00:03:40,200
+And indeed, it says again, if I
+have three bills worth $5 each,
+
+66
+00:03:40,200 --> 00:03:42,470
+then I have $15.
+
+67
+00:03:42,470 --> 00:03:43,730
+But you can do even more.
+
+68
+00:03:43,730 --> 00:03:45,450
+Let's go back to edit.
+
+69
+00:03:45,450 --> 00:03:49,990
+We can in fact have C do
+the computation for us here.
+
+70
+00:03:49,990 --> 00:03:54,530
+I just put 15 because I
+know 3 times 5 equals 15.
+
+71
+00:03:54,530 --> 00:04:00,650
+But the function is powerful enough
+for me to be able to put 3 times
+
+72
+00:04:00,650 --> 00:04:03,770
+5 right there in place of the 15.
+
+73
+00:04:03,770 --> 00:04:06,740
+The times is simply the star character.
+
+74
+00:04:06,740 --> 00:04:10,280
+3 star 5 stands for 3 times 5.
+
+75
+00:04:10,280 --> 00:04:11,855
+And what's going to happen?
+
+76
+00:04:11,855 --> 00:04:15,950
+The 3 times 5 will be
+evaluated as 15, and then
+
+77
+00:04:15,950 --> 00:04:19,649
+placed in place of this
+percent d right here.
+
+78
+00:04:19,649 --> 00:04:20,839
+Let's check it out.
+
+79
+00:04:20,839 --> 00:04:23,460
+Compile and run.
+
+80
+00:04:23,460 --> 00:04:27,360
+And indeed, it says again if I
+have 3 bills worth $5 each,
+
+81
+00:04:27,360 --> 00:04:29,490
+then I have $15.
+
+82
+00:04:29,490 --> 00:04:33,290
+So this is how you can
+manipulate and print, and start
+
+83
+00:04:33,290 --> 00:04:37,180
+to do simple calculations
+with integer numbers.

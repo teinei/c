@@ -1,0 +1,468 @@
+1
+00:00:00,000 --> 00:00:00,500
+
+
+2
+00:00:00,500 --> 00:00:04,170
+PROFESSOR: We will now learn
+how to memorize an integer value
+
+3
+00:00:04,170 --> 00:00:06,780
+and to use it later on in a program.
+
+4
+00:00:06,780 --> 00:00:10,200
+To do so, we use what's
+called variables.
+
+5
+00:00:10,200 --> 00:00:13,560
+One could think of variables
+as little memory boxes.
+
+6
+00:00:13,560 --> 00:00:17,490
+These memory boxes contain the
+things we'd like to remember
+
+7
+00:00:17,490 --> 00:00:20,280
+and are stored in the computer's memory.
+
+8
+00:00:20,280 --> 00:00:24,340
+Right now, what we'd like to
+memorize is an integer value.
+
+9
+00:00:24,340 --> 00:00:27,040
+Let's look at this simple program here.
+
+10
+00:00:27,040 --> 00:00:29,400
+What it does is it has
+three printf statements,
+
+11
+00:00:29,400 --> 00:00:34,490
+and it prints out three strings
+of characters and has some %d,
+
+12
+00:00:34,490 --> 00:00:39,540
+some format specifiers in them that are
+replaced by the numbers that we place
+
+13
+00:00:39,540 --> 00:00:42,400
+as additional parameters
+into the printf statement.
+
+14
+00:00:42,400 --> 00:00:47,690
+So for example, this first printf
+statement will print I am and then it
+
+15
+00:00:47,690 --> 00:00:53,010
+will replace %d with a 17, so
+it'll print I am 17 years old.
+
+16
+00:00:53,010 --> 00:00:58,560
+On the next line, it
+will print In eight years,
+
+17
+00:00:58,560 --> 00:01:04,739
+I will be 17 plus eight,
+which equals 25 years old.
+
+18
+00:01:04,739 --> 00:01:12,910
+And then in the third line, it'll
+print, 11 years ago, I was 17 minus 11,
+
+19
+00:01:12,910 --> 00:01:14,850
+which is 6 years old.
+
+20
+00:01:14,850 --> 00:01:18,900
+So let's compile and run this just
+to make sure everything's good.
+
+21
+00:01:18,900 --> 00:01:20,790
+And indeed, I'm 17 years old.
+
+22
+00:01:20,790 --> 00:01:25,980
+In eight years I'll be 25 years old,
+and 11 years ago I was six years old.
+
+23
+00:01:25,980 --> 00:01:27,720
+Let's go back to edit mode.
+
+24
+00:01:27,720 --> 00:01:32,100
+And suppose I want to
+memorize this 17 right here.
+
+25
+00:01:32,100 --> 00:01:37,450
+To do so, I need to
+first create a variable.
+
+26
+00:01:37,450 --> 00:01:41,130
+So a memory box with
+room to store the 17 in.
+
+27
+00:01:41,130 --> 00:01:46,200
+And then, I need to place
+that 17 into this memory box.
+
+28
+00:01:46,200 --> 00:01:48,960
+So let's write down two comments
+of the things I need to do.
+
+29
+00:01:48,960 --> 00:01:56,870
+I need to create a variable
+to store an integer value.
+
+30
+00:01:56,870 --> 00:02:05,740
+And next, I need to assign
+a value to that variable.
+
+31
+00:02:05,740 --> 00:02:08,520
+And how do I do these two things?
+
+32
+00:02:08,520 --> 00:02:12,660
+In C, an integer is
+called an int, just int.
+
+33
+00:02:12,660 --> 00:02:15,600
+The abbreviation int
+is used for integer.
+
+34
+00:02:15,600 --> 00:02:19,410
+So to create a variable that
+can hold integer values,
+
+35
+00:02:19,410 --> 00:02:22,680
+I type int to tell C that's
+what I want to store.
+
+36
+00:02:22,680 --> 00:02:28,780
+Then a space, and then I need to
+assign a name to my memory box.
+
+37
+00:02:28,780 --> 00:02:35,280
+And since I want to store my age in
+there, why don't I call this name age?
+
+38
+00:02:35,280 --> 00:02:39,450
+This line int age semi-colon
+creates a memory box
+
+39
+00:02:39,450 --> 00:02:43,730
+to which I can later on
+refer by the name of age.
+
+40
+00:02:43,730 --> 00:02:48,230
+Next, I need to place a
+value into age, namely my 17.
+
+41
+00:02:48,230 --> 00:02:51,140
+To do so, I type the
+name of the variable
+
+42
+00:02:51,140 --> 00:02:54,450
+on the left, then an equal sign.
+
+43
+00:02:54,450 --> 00:02:59,810
+And this equal sign means in C
+that I want to put a value into age.
+
+44
+00:02:59,810 --> 00:03:03,710
+I want to initialize the
+variable age with a number.
+
+45
+00:03:03,710 --> 00:03:08,030
+And that number goes on the right
+hand side followed by a semi-colon.
+
+46
+00:03:08,030 --> 00:03:10,970
+So this is not a mathematical
+equal sign that compares
+
+47
+00:03:10,970 --> 00:03:12,740
+whether the two sides are equal.
+
+48
+00:03:12,740 --> 00:03:14,930
+It's called an assignment statement.
+
+49
+00:03:14,930 --> 00:03:18,350
+We're assigning the value
+17 to the variable age,
+
+50
+00:03:18,350 --> 00:03:21,500
+meaning we're placing that
+17 into this memory box
+
+51
+00:03:21,500 --> 00:03:24,110
+so that we can remember it later.
+
+52
+00:03:24,110 --> 00:03:30,080
+So now, how do I use the fact that
+I've stored the 17 into the variable age?
+
+53
+00:03:30,080 --> 00:03:33,860
+I can simply go ahead and
+replace the 17 everywhere
+
+54
+00:03:33,860 --> 00:03:36,800
+in my program with this
+variable age, and what
+
+55
+00:03:36,800 --> 00:03:42,230
+happens when the program runs this,
+it sees, OK, a variable shows up.
+
+56
+00:03:42,230 --> 00:03:45,530
+That means I need to go ahead
+and find the value that's stored
+
+57
+00:03:45,530 --> 00:03:47,630
+in that variable and put it right here.
+
+58
+00:03:47,630 --> 00:03:51,080
+So when the program runs,
+it'll replace age with 17,
+
+59
+00:03:51,080 --> 00:03:54,070
+and then it'll put the
+17 in place of the %d,
+
+60
+00:03:54,070 --> 00:03:57,230
+and it will still print
+I am 17 years old.
+
+61
+00:03:57,230 --> 00:03:59,450
+I do the same thing for this 17.
+
+62
+00:03:59,450 --> 00:04:05,000
+I put age instead of 17 and also
+here, I put age instead of 17.
+
+63
+00:04:05,000 --> 00:04:07,650
+Let's run this program and
+make sure it actually works.
+
+64
+00:04:07,650 --> 00:04:11,100
+So we compile and then
+hit the run button.
+
+65
+00:04:11,100 --> 00:04:14,000
+And it says, indeed, I am 17 years old.
+
+66
+00:04:14,000 --> 00:04:19,970
+So indeed, up here this %d was replaced
+with a value that's stored in age.
+
+67
+00:04:19,970 --> 00:04:27,050
+In %d years, that's eight years, in
+eight years I will be %d years old.
+
+68
+00:04:27,050 --> 00:04:28,150
+That's age plus 8.
+
+69
+00:04:28,150 --> 00:04:29,480
+age has the value 17.
+
+70
+00:04:29,480 --> 00:04:32,420
+17 plus 8  equals 25.
+
+71
+00:04:32,420 --> 00:04:41,630
+And finally, 11 years ago I was age minus
+11, age has the value 17, 17 minus 11
+
+72
+00:04:41,630 --> 00:04:42,740
+equals 6.
+
+73
+00:04:42,740 --> 00:04:44,360
+So I was six years old.
+
+74
+00:04:44,360 --> 00:04:47,480
+So it worked just like we envisioned.
+
+75
+00:04:47,480 --> 00:04:49,370
+Let's go back to edit mode.
+
+76
+00:04:49,370 --> 00:04:51,470
+So why is this so useful?
+
+77
+00:04:51,470 --> 00:04:55,250
+Well, I can now actually
+change the age quite easily.
+
+78
+00:04:55,250 --> 00:04:59,620
+Suppose I'm no longer 17 years
+old but I'm rather 29 years old.
+
+79
+00:04:59,620 --> 00:05:02,540
+So I change the assignment value here.
+
+80
+00:05:02,540 --> 00:05:06,500
+age equals 29 instead of h equals 17.
+
+81
+00:05:06,500 --> 00:05:07,910
+And that's all I have to do.
+
+82
+00:05:07,910 --> 00:05:11,360
+I don't have to go change
+the 17 that used to sit here
+
+83
+00:05:11,360 --> 00:05:14,510
+and make that a 29 and the
+one that used to sit here
+
+84
+00:05:14,510 --> 00:05:18,290
+make that a 29 and the one that
+used to sit here and make it a 29.
+
+85
+00:05:18,290 --> 00:05:22,160
+I simply change age in
+one place of my program
+
+86
+00:05:22,160 --> 00:05:26,150
+and when I now compile
+and run the program,
+
+87
+00:05:26,150 --> 00:05:29,900
+it has replaced age with 29 everywhere.
+
+88
+00:05:29,900 --> 00:05:32,960
+So in 8 years, I
+will be 37 years old.
+
+89
+00:05:32,960 --> 00:05:35,730
+11 years ago I was 18 years old.
+
+90
+00:05:35,730 --> 00:05:37,520
+Let's do this one more
+time just for fun.
+
+91
+00:05:37,520 --> 00:05:39,380
+So we go back to edit.
+
+92
+00:05:39,380 --> 00:05:43,692
+And let's say I am 47 years old.
+
+93
+00:05:43,692 --> 00:05:46,790
+I can compile and run this code.
+
+94
+00:05:46,790 --> 00:05:52,310
+And all of the sudden, age has the value
+47 wherever I use it in my program.
+
+95
+00:05:52,310 --> 00:05:56,450
+So this makes using and
+reusing a value really easy,
+
+96
+00:05:56,450 --> 00:05:59,270
+because you can change
+that value in one place
+
+97
+00:05:59,270 --> 00:06:01,700
+rather than have to find
+every place in your program
+
+98
+00:06:01,700 --> 00:06:04,590
+where you actually use
+the specific value.
+
+99
+00:06:04,590 --> 00:06:07,400
+So this is how to create
+and initialize variables
+
+100
+00:06:07,400 --> 00:06:11,830
+and how to use them in your
+program in the case of integers.

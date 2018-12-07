@@ -1,0 +1,354 @@
+1
+00:00:00,000 --> 00:00:00,172
+
+
+2
+00:00:00,172 --> 00:00:02,130
+PROFESSOR: Now that we
+know how to add comments
+
+3
+00:00:02,130 --> 00:00:07,160
+to our code on individual
+lines or at the end of a line,
+
+4
+00:00:07,160 --> 00:00:10,030
+we'll learn another way to
+put comments in our code.
+
+5
+00:00:10,030 --> 00:00:13,410
+This time, comments that
+go over multiple lines.
+
+6
+00:00:13,410 --> 00:00:16,950
+Here we have a simple
+program that contains
+
+7
+00:00:16,950 --> 00:00:20,880
+a for loop that will repeat
+what's inside it three times.
+
+8
+00:00:20,880 --> 00:00:24,750
+Inside the for loop printing
+BlahBlehBlihBlohBluh and a space
+
+9
+00:00:24,750 --> 00:00:27,750
+after the last one, and then
+we're repeating that three times.
+
+10
+00:00:27,750 --> 00:00:33,060
+So we expect one line on which we see
+BlahBlehBlihBlohBluh three times
+
+11
+00:00:33,060 --> 00:00:34,560
+separated by spaces.
+
+12
+00:00:34,560 --> 00:00:38,400
+Let's quickly compile and
+run this code, and indeed,
+
+13
+00:00:38,400 --> 00:00:42,270
+we see BlahBlehBlihBlohBluh repeated **
+three times separated by spaces.
+
+14
+00:00:42,270 --> 00:00:44,730
+Now let's go to edit,
+and suppose we wanted
+
+15
+00:00:44,730 --> 00:00:48,600
+to explain what this program
+actually does to someone.
+
+16
+00:00:48,600 --> 00:00:52,920
+To do so over multiple lines, we
+would start a multi-line comment
+
+17
+00:00:52,920 --> 00:00:56,410
+by typing forward slash and star.
+
+18
+00:00:56,410 --> 00:00:59,800
+The end of a multi-line
+comment is indicated
+
+19
+00:00:59,800 --> 00:01:02,000
+with a star and a forward slash.
+
+20
+00:01:02,000 --> 00:01:04,890
+So the same two symbols,
+just in the opposite order.
+
+21
+00:01:04,890 --> 00:01:07,900
+Anything that goes in between
+is considered a comment
+
+22
+00:01:07,900 --> 00:01:09,940
+and will be ignored by the compiler.
+
+23
+00:01:09,940 --> 00:01:16,012
+So for example, we might type
+here, this program uses a for loop.
+
+24
+00:01:16,012 --> 00:01:17,720
+And suppose I wanted
+to start a new line.
+
+25
+00:01:17,720 --> 00:01:22,780
+I simply hit Return here, and the
+comment continues on the next line.
+
+26
+00:01:22,780 --> 00:01:31,230
+So this program uses
+for a loop to print out
+
+27
+00:01:31,230 --> 00:01:39,400
+a new line BlahBlehBlihBlohBluh three times.
+
+28
+00:01:39,400 --> 00:01:42,270
+
+
+29
+00:01:42,270 --> 00:01:45,420
+And you can see the color of
+my text has changed again,
+
+30
+00:01:45,420 --> 00:01:47,190
+indicating that this is a comment.
+
+31
+00:01:47,190 --> 00:01:53,260
+Anything between slash star and
+star slash is considered a comment.
+
+32
+00:01:53,260 --> 00:01:55,950
+So this won't affect the
+execution of my program at all.
+
+33
+00:01:55,950 --> 00:01:58,920
+It's just there to explain
+what my program does.
+
+34
+00:01:58,920 --> 00:02:01,050
+Let's quickly make sure
+this actually works.
+
+35
+00:02:01,050 --> 00:02:06,360
+Let's compile and run, and indeed the
+program acts exactly as it did before.
+
+36
+00:02:06,360 --> 00:02:10,270
+Let's go back to edit mode, and
+let's see what else we can do.
+
+37
+00:02:10,270 --> 00:02:15,010
+Suppose you discovered that you actually
+didn't want these first four printf
+
+38
+00:02:15,010 --> 00:02:20,460
+statements in this for loop, you just
+want it to print Bluh three times.
+
+39
+00:02:20,460 --> 00:02:26,100
+Well I could put a slash star in
+front of the first printf statement
+
+40
+00:02:26,100 --> 00:02:29,850
+and a star slash behind the
+fourth printf statement,
+
+41
+00:02:29,850 --> 00:02:34,650
+and now anything between the
+slash star and the star slash
+
+42
+00:02:34,650 --> 00:02:35,900
+is considered a comment.
+
+43
+00:02:35,900 --> 00:02:39,570
+So all of these printf statements
+are actually now considered comments
+
+44
+00:02:39,570 --> 00:02:41,760
+and will be ignored by the compiler.
+
+45
+00:02:41,760 --> 00:02:45,120
+In other words, the only printf
+statement that will be executed
+
+46
+00:02:45,120 --> 00:02:46,950
+is this very last one.
+
+47
+00:02:46,950 --> 00:02:48,210
+Let's give this a try.
+
+48
+00:02:48,210 --> 00:02:50,400
+Compile and run the code.
+
+49
+00:02:50,400 --> 00:02:53,430
+And indeed it only
+prints Bluh three times,
+
+50
+00:02:53,430 --> 00:02:56,610
+because we said we would
+repeat this loop three times.
+
+51
+00:02:56,610 --> 00:02:58,600
+Let's go back to editing.
+
+52
+00:02:58,600 --> 00:03:02,100
+And let's get rid of
+these comment signs now so
+
+53
+00:03:02,100 --> 00:03:04,720
+that our code is back
+to where it was before.
+
+54
+00:03:04,720 --> 00:03:09,060
+If we now compile and run,
+the code acts exactly the way
+
+55
+00:03:09,060 --> 00:03:14,550
+it did before, and prints
+BlahBlehBlihBlohBluh three times in a row.
+
+56
+00:03:14,550 --> 00:03:19,060
+Suppose now I want to just get rid of
+the third and fourth printf statement.
+
+57
+00:03:19,060 --> 00:03:24,240
+Well I can do that by starting a comment
+before the first printf statement
+
+58
+00:03:24,240 --> 00:03:28,810
+I want to get rid of, and ending
+that comment after the second one.
+
+59
+00:03:28,810 --> 00:03:33,330
+So now these two lines of code all
+of a sudden appear as comments.
+
+60
+00:03:33,330 --> 00:03:36,440
+And what's going to happen
+is we're going to print Blah
+
+61
+00:03:36,440 --> 00:03:40,440
+Bleh, we're going to skip Blih,
+Bloh, and go right to Bluh.
+
+62
+00:03:40,440 --> 00:03:43,320
+So what do we expect the output to be?
+
+63
+00:03:43,320 --> 00:03:49,770
+We expect it to be BlahBlehBluh
+space BlahBlehBluh space
+
+64
+00:03:49,770 --> 00:03:51,810
+BlahBlehBluh space,
+because I'm simply missing
+
+65
+00:03:51,810 --> 00:03:54,240
+the Blih and the Bloh in the middle.
+
+66
+00:03:54,240 --> 00:03:57,210
+Let's compile the code and run.
+
+67
+00:03:57,210 --> 00:04:03,660
+And indeed BlahBlehBluh, BlahBlehBluh
+BlahBlehBluh as we expected.
+
+68
+00:04:03,660 --> 00:04:05,070
+Let me go back to editing.
+
+69
+00:04:05,070 --> 00:04:09,030
+We can again remove these
+commentary signs if we wish to.
+
+70
+00:04:09,030 --> 00:04:11,760
+And the code is back
+to its original form.
+
+71
+00:04:11,760 --> 00:04:17,130
+So multi-line comment can be very useful
+in quickly commenting out some code
+
+72
+00:04:17,130 --> 00:04:19,274
+that you just don't
+want to currently use,
+
+73
+00:04:19,274 --> 00:04:21,690
+but you don't want to delete
+the lines either, because you
+
+74
+00:04:21,690 --> 00:04:24,120
+might want to use the code again later.
+
+75
+00:04:24,120 --> 00:04:26,660
+Comments are very useful.

@@ -1,0 +1,404 @@
+1
+00:00:00,000 --> 00:00:01,420
+
+
+2
+00:00:01,420 --> 00:00:04,480
+PROFESSOR: I'm going to
+show you how to comment some
+
+3
+00:00:04,480 --> 00:00:08,800
+of the lines that include code already.
+
+4
+00:00:08,800 --> 00:00:11,770
+So we have two ways of doing that.
+
+5
+00:00:11,770 --> 00:00:15,670
+First is to put the comment
+at the end of the instruction.
+
+6
+00:00:15,670 --> 00:00:20,530
+For example, here we have
+a program with two loops,
+
+7
+00:00:20,530 --> 00:00:25,850
+then the first one is repeating
+three times BlahBlehBlih
+
+8
+00:00:25,850 --> 00:00:28,780
+And then we have a new
+line with a printf,
+
+9
+00:00:28,780 --> 00:00:32,950
+and the second one is repeating
+six times, as you can see here,
+
+10
+00:00:32,950 --> 00:00:38,530
+BlohBluh So if I compile and
+execute, then we have BlahBlehBlih
+
+11
+00:00:38,530 --> 00:00:42,160
+three times and BlohBluh six times.
+
+12
+00:00:42,160 --> 00:00:46,060
+And to separate the
+two, we have a new line.
+
+13
+00:00:46,060 --> 00:00:48,580
+All right, so let me
+go back to Edit mode.
+
+14
+00:00:48,580 --> 00:00:50,620
+So I want to comment this code.
+
+15
+00:00:50,620 --> 00:00:54,310
+So what I can do is, at
+the end of each code line,
+
+16
+00:00:54,310 --> 00:00:58,990
+I can put any comment I want to
+make it clearer for someone
+
+17
+00:00:58,990 --> 00:01:01,550
+that will read the code.
+
+18
+00:01:01,550 --> 00:01:04,315
+So here, beginning of the main.
+
+19
+00:01:04,315 --> 00:01:07,220
+Well, this doesn't serve you.
+
+20
+00:01:07,220 --> 00:01:09,400
+You don't have to say that.
+
+21
+00:01:09,400 --> 00:01:24,765
+This line, for example, I can say
+specific line used to repeat with the for.
+
+22
+00:01:24,765 --> 00:01:27,270
+
+
+23
+00:01:27,270 --> 00:01:34,490
+This is the start of the
+first loop, and this is
+
+24
+00:01:34,490 --> 00:01:40,220
+the first instruction inside the loop.
+
+25
+00:01:40,220 --> 00:01:45,410
+And this is the second
+instruction inside the loop.
+
+26
+00:01:45,410 --> 00:01:50,970
+And this is the third
+instruction inside the loop.
+
+27
+00:01:50,970 --> 00:01:53,970
+
+
+28
+00:01:53,970 --> 00:01:55,760
+And what is this one?
+
+29
+00:01:55,760 --> 00:01:58,440
+This is the end of the first loop.
+
+30
+00:01:58,440 --> 00:02:01,660
+
+
+31
+00:02:01,660 --> 00:02:08,320
+Well, that prints new line.
+
+32
+00:02:08,320 --> 00:02:19,970
+And this is a second loop, so
+the beginning of a second loop.
+
+33
+00:02:19,970 --> 00:02:27,260
+And this is the first
+instruction of the second loop.
+
+34
+00:02:27,260 --> 00:02:32,730
+And this is the second
+instruction with the second loop.
+
+35
+00:02:32,730 --> 00:02:33,250
+All right.
+
+36
+00:02:33,250 --> 00:02:38,300
+And this is the end of the second loop.
+
+37
+00:02:38,300 --> 00:02:44,520
+That's how you put some comment
+at the end of the instruction.
+
+38
+00:02:44,520 --> 00:02:48,450
+So these ones are very simple comments
+just to show you how it works.
+
+39
+00:02:48,450 --> 00:02:52,440
+So it's just a double slash
+at the end of the instruction,
+
+40
+00:02:52,440 --> 00:02:54,750
+so after the semicolon.
+
+41
+00:02:54,750 --> 00:02:57,850
+Or here, as you can see,
+it's the beginning of a loop,
+
+42
+00:02:57,850 --> 00:03:03,120
+so I put it just after the opening
+brace, or here, the same for the main
+
+43
+00:03:03,120 --> 00:03:04,530
+just after.
+
+44
+00:03:04,530 --> 00:03:08,490
+So at the end of the line, if you
+finish the line with a double slash,
+
+45
+00:03:08,490 --> 00:03:10,410
+then the rest is a comment.
+
+46
+00:03:10,410 --> 00:03:12,960
+As you can see here
+it's in different colors
+
+47
+00:03:12,960 --> 00:03:15,960
+to say that it's a comment.
+
+48
+00:03:15,960 --> 00:03:18,900
+Something else that
+I want to show you is
+
+49
+00:03:18,900 --> 00:03:25,350
+that you can comment very easily
+one line so that it is not executed.
+
+50
+00:03:25,350 --> 00:03:29,190
+So by the way, here, if I
+compile and run the program,
+
+51
+00:03:29,190 --> 00:03:32,760
+it is exactly the same
+behavior and the same output
+
+52
+00:03:32,760 --> 00:03:37,650
+because it doesn't change
+the behavior of the program.
+
+53
+00:03:37,650 --> 00:03:41,220
+But now I'm going to show
+you how you can comment
+
+54
+00:03:41,220 --> 00:03:43,810
+one line to change the behavior.
+
+55
+00:03:43,810 --> 00:03:46,860
+For example, for the
+first repetition loop,
+
+56
+00:03:46,860 --> 00:03:54,330
+I can comment the first printf by
+putting two slash before the printf.
+
+57
+00:03:54,330 --> 00:03:59,310
+And as you can see, the printf changes
+the color and is now a comment,
+
+58
+00:03:59,310 --> 00:04:01,740
+so it will not be executed anymore.
+
+59
+00:04:01,740 --> 00:04:06,480
+So if I compile and run, you
+can see that instead of having
+
+60
+00:04:06,480 --> 00:04:10,860
+BlahBlehBlih, we have BlehBlih.
+
+61
+00:04:10,860 --> 00:04:13,870
+I can do the same with
+Bleh, for example.
+
+62
+00:04:13,870 --> 00:04:17,910
+I compile and run, and
+now for the first loop
+
+63
+00:04:17,910 --> 00:04:20,790
+we only have Blih Blih Blih
+instead of
+
+64
+00:04:20,790 --> 00:04:24,660
+BlahBlehBlih because I just
+commented the two first lines.
+
+65
+00:04:24,660 --> 00:04:26,970
+So you get the point.
+
+66
+00:04:26,970 --> 00:04:29,310
+Anytime you want to
+do some testing, it's
+
+67
+00:04:29,310 --> 00:04:35,470
+very good to comment some of the lines
+to see the behavior of the program.
+
+68
+00:04:35,470 --> 00:04:37,790
+So that's a good way to debug a program.
+
+69
+00:04:37,790 --> 00:04:41,340
+Here I just commented the
+Bloh line in the second loop,
+
+70
+00:04:41,340 --> 00:04:43,170
+so I only have the Bluh.
+
+71
+00:04:43,170 --> 00:04:47,760
+And here I have only Blih
+that is not commented and Bluh
+
+72
+00:04:47,760 --> 00:04:49,440
+that is not commented.
+
+73
+00:04:49,440 --> 00:04:55,740
+And that's a way to debug a program
+so that you can comment and uncomment
+
+74
+00:04:55,740 --> 00:04:59,640
+some of the lines very easily and
+see what's happening if you have
+
+75
+00:04:59,640 --> 00:05:02,970
+a certain bug to focus more on the bug.
+
+76
+00:05:02,970 --> 00:05:06,870
+So you can try by yourself
+and comment some of the line,
+
+77
+00:05:06,870 --> 00:05:10,690
+but be careful, because if
+you comment, for example,
+
+78
+00:05:10,690 --> 00:05:13,820
+the beginning of the
+first loop, the for,
+
+79
+00:05:13,820 --> 00:05:16,470
+then you will have some
+syntactic error because you
+
+80
+00:05:16,470 --> 00:05:20,100
+have the closing brace for the
+for, but the opening brace for the
+
+81
+00:05:20,100 --> 00:05:22,140
+for is commented.
+
+82
+00:05:22,140 --> 00:05:23,550
+So that's a syntactic error.
+
+83
+00:05:23,550 --> 00:05:26,970
+So you have to make sure
+that, if you comment a line,
+
+84
+00:05:26,970 --> 00:05:34,590
+you still keep a certain behavior
+that is correct to debug your program.
+
+85
+00:05:34,590 --> 00:05:37,950
+So go ahead and try to
+comment some of the lines here
+
+86
+00:05:37,950 --> 00:05:40,830
+or uncomment some of the
+lines and see if you can
+
+87
+00:05:40,830 --> 00:05:44,030
+play with the comments within the code.
+
+88
+00:05:44,030 --> 00:05:45,070

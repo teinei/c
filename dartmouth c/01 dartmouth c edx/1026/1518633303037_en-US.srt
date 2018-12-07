@@ -1,0 +1,380 @@
+1
+00:00:00,000 --> 00:00:00,870
+
+
+2
+00:00:00,870 --> 00:00:04,980
+Just like you can print multiple
+integers using just one printf
+
+3
+00:00:04,980 --> 00:00:08,970
+statement by simply using multiple
+percent d format specifiers,
+
+4
+00:00:08,970 --> 00:00:13,680
+you can also read multiple integers
+from the user input using one scanf
+
+5
+00:00:13,680 --> 00:00:17,850
+statement with multiple
+percent d format specifiers.
+
+6
+00:00:17,850 --> 00:00:19,330
+Let's take a look at an example.
+
+7
+00:00:19,330 --> 00:00:21,090
+So if we want to read
+multiple variables,
+
+8
+00:00:21,090 --> 00:00:23,580
+we need to declare multiple variables.
+
+9
+00:00:23,580 --> 00:00:26,675
+So how about we have one called
+first, one called second,
+
+10
+00:00:26,675 --> 00:00:29,960
+then one called third.
+
+11
+00:00:29,960 --> 00:00:35,266
+Then, we should probably ask
+the user to enter some numbers.
+
+12
+00:00:35,266 --> 00:00:37,955
+Please enter three integers.
+
+13
+00:00:37,955 --> 00:00:40,740
+
+
+14
+00:00:40,740 --> 00:00:46,500
+And then we have a scanf, and we
+simply put the percent d for the first,
+
+15
+00:00:46,500 --> 00:00:49,140
+a percent d for the second,
+and then another percent d
+
+16
+00:00:49,140 --> 00:00:51,060
+for the third number we want to read.
+
+17
+00:00:51,060 --> 00:00:56,430
+And then after the format string, we
+put a comma, and the first variable
+
+18
+00:00:56,430 --> 00:00:58,500
+with the ampersand sign in front of it.
+
+19
+00:00:58,500 --> 00:01:03,810
+The first variable is first, and
+then another ampersand second,
+
+20
+00:01:03,810 --> 00:01:06,150
+and another ampersand third.
+
+21
+00:01:06,150 --> 00:01:09,030
+But that means that the
+first number the user enters
+
+22
+00:01:09,030 --> 00:01:11,570
+will be stored in the
+variable first, the second one
+
+23
+00:01:11,570 --> 00:01:14,850
+they enter will be stored in the
+variable second, and the third one
+
+24
+00:01:14,850 --> 00:01:17,080
+they entered will be stored
+in the variable third.
+
+25
+00:01:17,080 --> 00:01:23,580
+So let's print out what the user entered
+and the values of these variables.
+
+26
+00:01:23,580 --> 00:01:29,510
+
+
+27
+00:01:29,510 --> 00:01:36,000
+percent d for second,
+and percent d for third.
+
+28
+00:01:36,000 --> 00:01:42,560
+And then we need to put in our
+variables-- first, second, third.
+
+29
+00:01:42,560 --> 00:01:43,920
+OK.
+
+30
+00:01:43,920 --> 00:01:46,030
+Let's check this out.
+
+31
+00:01:46,030 --> 00:01:50,440
+Let's compile this, and let's run.
+
+32
+00:01:50,440 --> 00:01:52,280
+"Please enter three integers."
+
+33
+00:01:52,280 --> 00:01:59,920
+How about 5, 789, and 17.
+
+34
+00:01:59,920 --> 00:02:04,330
+"You entered 5 for first, 789
+for second, and 17 for third."
+
+35
+00:02:04,330 --> 00:02:06,370
+So that worked perfectly.
+
+36
+00:02:06,370 --> 00:02:09,910
+I want to show you something
+else that's possible, however.
+
+37
+00:02:09,910 --> 00:02:14,320
+So if we run this program again,
+"please enter three integers,"
+
+38
+00:02:14,320 --> 00:02:17,952
+I could even hit the Return
+key after each integer.
+
+39
+00:02:17,952 --> 00:02:19,660
+So I don't remember
+what I just entered--
+
+40
+00:02:19,660 --> 00:02:28,030
+5, and then 678, and I am hitting
+Return after each integer, so 34.
+
+41
+00:02:28,030 --> 00:02:29,320
+And it still worked just fine.
+
+42
+00:02:29,320 --> 00:02:33,820
+5 for the first, 678 for the
+second, and 34 for the third.
+
+43
+00:02:33,820 --> 00:02:36,700
+I could even do this in
+some kind of mixed fashion.
+
+44
+00:02:36,700 --> 00:02:39,760
+If I run this program again,
+"enter three integers,"
+
+45
+00:02:39,760 --> 00:02:41,890
+I could enter the first one--
+
+46
+00:02:41,890 --> 00:02:49,320
+6-- and 32, and then hit Return,
+and then enter a third integer here,
+
+47
+00:02:49,320 --> 00:02:51,590
+and it still will write all
+these integers just fine.
+
+48
+00:02:51,590 --> 00:02:56,360
+What happens when C reads integers
+or numbers from the user input
+
+49
+00:02:56,360 --> 00:03:00,170
+is it simply ignores white
+space between numbers.
+
+50
+00:03:00,170 --> 00:03:02,720
+So as it gets ready to
+read the second number,
+
+51
+00:03:02,720 --> 00:03:05,610
+it ignores all white space
+before the second number.
+
+52
+00:03:05,610 --> 00:03:08,210
+We could go even a little bit further.
+
+53
+00:03:08,210 --> 00:03:11,780
+If run this program again, I
+could even put some white spaces
+
+54
+00:03:11,780 --> 00:03:14,990
+in front of the first number
+before I even enter anything.
+
+55
+00:03:14,990 --> 00:03:21,560
+And then maybe enter a 45, and then
+a bunch of more spaces, and then 33,
+
+56
+00:03:21,560 --> 00:03:24,340
+and another space, then 75.
+
+57
+00:03:24,340 --> 00:03:26,570
+And it still writes all
+those numbers correctly.
+
+58
+00:03:26,570 --> 00:03:31,220
+So when reading numbers, the scanf
+function ignores white space,
+
+59
+00:03:31,220 --> 00:03:34,800
+so that's returned
+characters, spaces, and such.
+
+60
+00:03:34,800 --> 00:03:37,280
+However, let me show you one more thing.
+
+61
+00:03:37,280 --> 00:03:39,000
+When I run this again--
+
+62
+00:03:39,000 --> 00:03:45,200
+and this time I put commas
+between my integers--
+
+63
+00:03:45,200 --> 00:03:47,660
+that's not going to be good.
+
+64
+00:03:47,660 --> 00:03:50,030
+It writes the first number
+just fine, but then it
+
+65
+00:03:50,030 --> 00:03:52,780
+got confused for the second
+number, and got a 0 there, and then
+
+66
+00:03:52,780 --> 00:03:57,140
+0 for the third number
+because the comma confused it.
+
+67
+00:03:57,140 --> 00:04:01,070
+In order for the user to
+be able to enter commas,
+
+68
+00:04:01,070 --> 00:04:04,910
+you would have to specify that
+in your scanf format string.
+
+69
+00:04:04,910 --> 00:04:06,410
+So we could do that.
+
+70
+00:04:06,410 --> 00:04:09,470
+If I specify that I want a
+comma between these numbers,
+
+71
+00:04:09,470 --> 00:04:11,867
+I have to put that comma right there.
+
+72
+00:04:11,867 --> 00:04:13,700
+And then I could tell
+the user, please enter
+
+73
+00:04:13,700 --> 00:04:17,899
+three integers separated by commas.
+
+74
+00:04:17,899 --> 00:04:20,769
+
+
+75
+00:04:20,769 --> 00:04:25,150
+And now when I run the code-- compile
+and run-- "enter three integers
+
+76
+00:04:25,150 --> 00:04:29,440
+separated by commas,"
+I could enter 34, 76,
+
+77
+00:04:29,440 --> 00:04:31,940
+and I could still put
+lots of spaces here.
+
+78
+00:04:31,940 --> 00:04:33,720
+And there we go.
+
+79
+00:04:33,720 --> 00:04:36,340
+And that worked again
+because the comma is now
+
+80
+00:04:36,340 --> 00:04:39,320
+in the place where it was expected.
+
+81
+00:04:39,320 --> 00:04:43,310
+So you can read multiple inputs all
+at once with one scanf statement,
+
+82
+00:04:43,310 --> 00:04:47,160
+and white space is ignored
+when reading numbers.

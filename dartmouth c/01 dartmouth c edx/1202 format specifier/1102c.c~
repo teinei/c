@@ -1,0 +1,13 @@
+/*
+Dear Procrastinator,
+You still have to wait for X days (Y minutes or Z seconds) before you can procrastinate!
+ */
+#include<stdio.h>
+
+int main(){
+  int x,y,z;
+  //
+  //
+  printf("Dear Procrastinator,\nYou still have to wait for %d days (%d minutes or %d seconds) before you can procrastinate!",x,y,z);
+  return 1;
+}

@@ -1,0 +1,414 @@
+1
+00:00:00,000 --> 00:00:01,090
+
+
+2
+00:00:01,090 --> 00:00:05,450
+PROFESSOR: How do you vary
+the value of a variable?
+
+3
+00:00:05,450 --> 00:00:08,830
+That's what I'm going to show
+you in this codecast.
+
+4
+00:00:08,830 --> 00:00:13,600
+I'm going to do an example of
+a bank account with a balance,
+
+5
+00:00:13,600 --> 00:00:17,110
+and we will vary the
+value of this balance.
+
+6
+00:00:17,110 --> 00:00:22,720
+So first, I'm going to create,
+that is declare, a variable
+
+7
+00:00:22,720 --> 00:00:25,240
+that can contain integer values.
+
+8
+00:00:25,240 --> 00:00:27,771
+And the name is balance.
+
+9
+00:00:27,771 --> 00:00:37,280
+So here creating a variable
+containing integer values.
+
+10
+00:00:37,280 --> 00:00:42,210
+And I'm going to assign the
+value 50, meaning that first, I
+
+11
+00:00:42,210 --> 00:00:50,160
+put $50 in my bank account,
+so assigning the value
+
+12
+00:00:50,160 --> 00:00:57,240
+$50 into the balance variable.
+
+13
+00:00:57,240 --> 00:00:59,760
+And then I'm going to print.
+
+14
+00:00:59,760 --> 00:01:09,040
+I have percent d dollars
+in my account, new line,
+
+15
+00:01:09,040 --> 00:01:14,010
+and I want to show the value
+of the variable balance.
+
+16
+00:01:14,010 --> 00:01:17,410
+Let's compile and run the program.
+
+17
+00:01:17,410 --> 00:01:20,040
+I have $50 in my account.
+
+18
+00:01:20,040 --> 00:01:22,470
+That's the output of the
+program in the terminal.
+
+19
+00:01:22,470 --> 00:01:23,950
+Good.
+
+20
+00:01:23,950 --> 00:01:30,240
+Now, I'm going to show you how we
+can vary the value of this variable.
+
+21
+00:01:30,240 --> 00:01:38,730
+Let's try to do a next balance of $40.
+
+22
+00:01:38,730 --> 00:01:44,120
+So I mean that I want to
+reassign another time,
+
+23
+00:01:44,120 --> 00:01:48,280
+the same variable balance,
+but with a new value.
+
+24
+00:01:48,280 --> 00:01:50,920
+So I could do something like this.
+
+25
+00:01:50,920 --> 00:01:53,580
+balance equals
+
+26
+00:01:53,580 --> 00:01:58,530
+I assign the new value
+10, which means I had 50.
+
+27
+00:01:58,530 --> 00:02:01,980
+I do an expense of 40, then I have 10.
+
+28
+00:02:01,980 --> 00:02:08,574
+Of course, if I do a printf, I have
+percent d dollars in my account.
+
+29
+00:02:08,574 --> 00:02:12,600
+
+
+30
+00:02:12,600 --> 00:02:19,760
+And then, I print the value of
+balance if I compile and run.
+
+31
+00:02:19,760 --> 00:02:23,880
+In the terminal I have
+$50, and then I have $10.
+
+32
+00:02:23,880 --> 00:02:27,570
+That's not what I really want to do.
+
+33
+00:02:27,570 --> 00:02:32,350
+Instead, I want the
+computation to occur.
+
+34
+00:02:32,350 --> 00:02:39,420
+So I could say 50 minus 40,
+which is correct, because 50
+
+35
+00:02:39,420 --> 00:02:46,350
+was the old value of balance minus 40.
+
+36
+00:02:46,350 --> 00:02:49,410
+And that makes 10, of course.
+
+37
+00:02:49,410 --> 00:02:55,260
+The thing here is I want
+to use the same variable.
+
+38
+00:02:55,260 --> 00:02:58,460
+So it might look strange,
+but look what I will do here.
+
+39
+00:02:58,460 --> 00:03:02,840
+I would replace 50 with balance.
+
+40
+00:03:02,840 --> 00:03:07,070
+And that, if you look at this
+line the first time you see this,
+
+41
+00:03:07,070 --> 00:03:13,010
+it might look a little bit strange
+because from a mathematical point
+
+42
+00:03:13,010 --> 00:03:15,800
+of view, it's not equality.
+
+43
+00:03:15,800 --> 00:03:22,860
+balance is not equal to balance minus 40
+because this sign here is not equality.
+
+44
+00:03:22,860 --> 00:03:26,270
+This is assignment, and
+this is quite different,
+
+45
+00:03:26,270 --> 00:03:30,290
+meaning that we first have to
+retrieve the value balance.
+
+46
+00:03:30,290 --> 00:03:34,580
+So it would be 50, then we have
+to do the calculation minus 40.
+
+47
+00:03:34,580 --> 00:03:35,990
+That makes 10.
+
+48
+00:03:35,990 --> 00:03:38,630
+And the result of the
+calculation 10, then we
+
+49
+00:03:38,630 --> 00:03:42,530
+assign it to the variable balance.
+
+50
+00:03:42,530 --> 00:03:47,300
+And that's exactly what happens
+when I compile and run the program.
+
+51
+00:03:47,300 --> 00:03:52,340
+You see, I have $10 in my
+account after the calculation.
+
+52
+00:03:52,340 --> 00:03:57,710
+Let's continue to make sure you
+understand what's happening here.
+
+53
+00:03:57,710 --> 00:04:03,780
+I will add $20 in my account.
+
+54
+00:04:03,780 --> 00:04:05,820
+For this, I do the same--
+
+55
+00:04:05,820 --> 00:04:06,990
+balance
+
+56
+00:04:06,990 --> 00:04:09,030
+And I assign what?
+
+57
+00:04:09,030 --> 00:04:15,870
+The old value of balance plus
+20, and then I will printf.
+
+58
+00:04:15,870 --> 00:04:20,325
+I have percent d 
+dollars in my account.
+
+59
+00:04:20,325 --> 00:04:24,020
+
+
+60
+00:04:24,020 --> 00:04:26,350
+Let's compile and run.
+
+61
+00:04:26,350 --> 00:04:30,940
+As you can see here, now
+I have $30 in my account
+
+62
+00:04:30,940 --> 00:04:37,150
+because it calculated the old value
+of balance that was 10 plus 20.
+
+63
+00:04:37,150 --> 00:04:41,680
+And the results, 10 plus
+20 equals 30, the result
+
+64
+00:04:41,680 --> 00:04:44,920
+we assign it to the
+same variable balance.
+
+65
+00:04:44,920 --> 00:04:46,940
+And then we print it.
+
+66
+00:04:46,940 --> 00:04:56,020
+Let's continue with an
+expense of $30, for example.
+
+67
+00:04:56,020 --> 00:05:01,180
+So that would make the
+instruction balance equals
+
+68
+00:05:01,180 --> 00:05:06,340
+meaning I assign a new value, and the
+new value is the old value of balance,
+
+69
+00:05:06,340 --> 00:05:09,250
+minus 30.
+
+70
+00:05:09,250 --> 00:05:14,880
+And then let me copy paste
+this printf just here.
+
+71
+00:05:14,880 --> 00:05:17,630
+And let's compile and run this program.
+
+72
+00:05:17,630 --> 00:05:20,150
+
+
+73
+00:05:20,150 --> 00:05:23,370
+Now I have $0 in my account.
+
+74
+00:05:23,370 --> 00:05:32,390
+$0 with an S, we'll see later on
+how to test a certain variable
+
+75
+00:05:32,390 --> 00:05:35,090
+and printf a different sentence here.
+
+76
+00:05:35,090 --> 00:05:37,220
+We would like to printf.
+
+77
+00:05:37,220 --> 00:05:39,600
+$0 without a S, of course.
+
+78
+00:05:39,600 --> 00:05:43,280
+But we will see that
+in the next sections.
+
+79
+00:05:43,280 --> 00:05:46,060
+So here, I will just do it manually.
+
+80
+00:05:46,060 --> 00:05:51,000
+And I will get rid of the dollar
+with an S in the sentence here.
+
+81
+00:05:51,000 --> 00:05:58,200
+So that's how you create a variable,
+and you put a first value in it.
+
+82
+00:05:58,200 --> 00:06:03,590
+And that's how you use it again,
+meaning that you retrieve the old value.
+
+83
+00:06:03,590 --> 00:06:06,980
+You do a calculation, and the
+result of the calculation,
+
+84
+00:06:06,980 --> 00:06:10,770
+you're assigning to the same variable.
+
+85
+00:06:10,770 --> 00:06:18,990
+So you can try by yourself by
+putting different numbers here.
+
+86
+00:06:18,990 --> 00:06:22,610
+And you can even try to
+multiply by 2 the balance
+
+87
+00:06:22,610 --> 00:06:28,880
+or try to use multiple times the
+balance, the old value of the balance,
+
+88
+00:06:28,880 --> 00:06:32,210
+and try to understand
+what's happening here
+
+89
+00:06:32,210 --> 00:06:34,340
+when you compile and run the program.
+
+90
+00:06:34,340 --> 00:06:36,550
+It's your turn now.
+
+91
+00:06:36,550 --> 00:06:37,174

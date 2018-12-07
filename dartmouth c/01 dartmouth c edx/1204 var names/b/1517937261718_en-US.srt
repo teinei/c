@@ -1,0 +1,338 @@
+1
+00:00:00,000 --> 00:00:00,726
+
+
+2
+00:00:00,726 --> 00:00:03,970
+PROFESSOR: I would like to give
+you some advice on how to choose
+
+3
+00:00:03,970 --> 00:00:06,580
+good names for your variables.
+
+4
+00:00:06,580 --> 00:00:11,170
+In this example program, I
+chose the variable name balance,
+
+5
+00:00:11,170 --> 00:00:14,530
+and then gave it a value of
+50, because balance represents
+
+6
+00:00:14,530 --> 00:00:17,320
+how much money is in my bank account.
+
+7
+00:00:17,320 --> 00:00:22,480
+Here in this printf statement,
+you see, it'll print out, I have--
+
+8
+00:00:22,480 --> 00:00:25,429
+percent d. The percent d is replaced with 50.
+
+9
+00:00:25,429 --> 00:00:26,470
+That's stored in balance.
+
+10
+00:00:26,470 --> 00:00:28,420
+I have $50 in my bank account.
+
+11
+00:00:28,420 --> 00:00:31,150
+So that's why I chose this
+variable named balance.
+
+12
+00:00:31,150 --> 00:00:33,760
+It is an explicit name
+that says something
+
+13
+00:00:33,760 --> 00:00:35,990
+about what's the work in this variable.
+
+14
+00:00:35,990 --> 00:00:40,090
+So the first rule is to
+choose an explicit name.
+
+15
+00:00:40,090 --> 00:00:43,810
+But there are certain restrictions
+in C, on your variable names.
+
+16
+00:00:43,810 --> 00:00:46,580
+And I'll put those in a
+comment right up here.
+
+17
+00:00:46,580 --> 00:00:50,260
+
+
+18
+00:00:50,260 --> 00:00:57,310
+Variable names can use
+lowercase and uppercase letters,
+
+19
+00:00:57,310 --> 00:00:59,680
+(or characters) and digits.
+
+20
+00:00:59,680 --> 00:01:06,400
+But they cannot use special characters
+such as the at sign, or the pound sign,
+
+21
+00:01:06,400 --> 00:01:08,740
+of the ampersand sign, and so forth.
+
+22
+00:01:08,740 --> 00:01:13,780
+They can also not use accented
+letters, like e with an accent on it.
+
+23
+00:01:13,780 --> 00:01:16,300
+And-- it's an important one--
+
+24
+00:01:16,300 --> 00:01:18,140
+they cannot start with a digit.
+
+25
+00:01:18,140 --> 00:01:21,280
+So they have to start with a letter.
+
+26
+00:01:21,280 --> 00:01:24,260
+Spaces are also forbidden
+in variable names.
+
+27
+00:01:24,260 --> 00:01:26,840
+So if you wanted to call
+the variable my balance,
+
+28
+00:01:26,840 --> 00:01:29,590
+you could not type my space balance.
+
+29
+00:01:29,590 --> 00:01:34,450
+However, an underscore may
+be used instead of a space,
+
+30
+00:01:34,450 --> 00:01:36,780
+in the name of a variable.
+
+31
+00:01:36,780 --> 00:01:39,900
+And so how do you do that, if you
+want to have a variable name that
+
+32
+00:01:39,900 --> 00:01:43,440
+consists of several
+words, you can't simply
+
+33
+00:01:43,440 --> 00:01:47,760
+stick all those words together
+using uppercase letters
+
+34
+00:01:47,760 --> 00:01:50,460
+between the words instead of spaces.
+
+35
+00:01:50,460 --> 00:01:56,960
+So you can use uppercase letters
+between words and set of spaces.
+
+36
+00:01:56,960 --> 00:01:59,680
+So let's look at some examples.
+
+37
+00:01:59,680 --> 00:02:05,000
+Suppose you wanted to call this
+a valid balance for that balance.
+
+38
+00:02:05,000 --> 00:02:07,920
+You can't just say valid space balance.
+
+39
+00:02:07,920 --> 00:02:09,449
+That is an illegal variable name.
+
+40
+00:02:09,449 --> 00:02:11,670
+If I were to tried to compile
+this, it would actually
+
+41
+00:02:11,670 --> 00:02:13,720
+give me an error message.
+
+42
+00:02:13,720 --> 00:02:16,800
+What you can do instead
+is place an underscore
+
+43
+00:02:16,800 --> 00:02:19,100
+instead of the space character.
+
+44
+00:02:19,100 --> 00:02:22,050
+Now, valid_balance, with the
+underscore in the middle,
+
+45
+00:02:22,050 --> 00:02:24,450
+is a legal variable name.
+
+46
+00:02:24,450 --> 00:02:27,990
+Of course, I'll have to update it
+all over the place in my program,
+
+47
+00:02:27,990 --> 00:02:32,370
+otherwise my program doesn't know
+that I just chose a new variable name.
+
+48
+00:02:32,370 --> 00:02:36,720
+And now that I did that, I can
+actually compile and run this program.
+
+49
+00:02:36,720 --> 00:02:38,250
+And it runs just fine.
+
+50
+00:02:38,250 --> 00:02:42,160
+I have $50 in my bank account.
+
+51
+00:02:42,160 --> 00:02:45,690
+There are other ways to deal with
+the fact that you cannot use spaces.
+
+52
+00:02:45,690 --> 00:02:48,450
+One of them is you just
+get rid of the underscore.
+
+53
+00:02:48,450 --> 00:02:50,010
+But now, that's really hard to read.
+
+54
+00:02:50,010 --> 00:02:53,430
+And so what you can do
+instead is to just uppercase
+
+55
+00:02:53,430 --> 00:02:56,730
+the beginning letter of a next word.
+
+56
+00:02:56,730 --> 00:03:00,840
+So validBalance here,
+with a B upper cased,
+
+57
+00:03:00,840 --> 00:03:04,780
+indicates that I really meant two
+words, but I couldn't do that.
+
+58
+00:03:04,780 --> 00:03:07,950
+And now, if I change this
+all over the place again,
+
+59
+00:03:07,950 --> 00:03:09,720
+then my program runs just fine.
+
+60
+00:03:09,720 --> 00:03:13,480
+I just replaced my variable
+with this new variable.
+
+61
+00:03:13,480 --> 00:03:16,260
+So let's check this
+out, compile, and run.
+
+62
+00:03:16,260 --> 00:03:17,490
+And it works just fine.
+
+63
+00:03:17,490 --> 00:03:20,860
+I have $50 in my bank account.
+
+64
+00:03:20,860 --> 00:03:24,840
+It's a personal preference on whether
+you prefer to use an underscore
+
+65
+00:03:24,840 --> 00:03:29,460
+or just smack your words right
+together by upper casing in the middle.
+
+66
+00:03:29,460 --> 00:03:30,795
+It's a real personal preference.
+
+67
+00:03:30,795 --> 00:03:31,857
+It's up to you.
+
+68
+00:03:31,857 --> 00:03:33,690
+But what's really
+important-- you need to be
+
+69
+00:03:33,690 --> 00:03:35,880
+explicit with your variable names.
+
+70
+00:03:35,880 --> 00:03:39,420
+Choose names that indicate
+what the variable is all about
+
+71
+00:03:39,420 --> 00:03:42,090
+and what it's used for, so
+that people reading your code
+
+72
+00:03:42,090 --> 00:03:44,260
+can understand it more easily.
+
+73
+00:03:44,260 --> 00:03:48,120
+And in addition, your variable names
+need to follow all of the rules
+
+74
+00:03:48,120 --> 00:03:50,288
+that we just saw above.
+
+75
+00:03:50,288 --> 00:03:50,788

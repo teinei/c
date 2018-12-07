@@ -1,0 +1,5 @@
+#include <stdio.h>
+//this is graded devoir
+int main(void){
+  printf("*****\n**|**\n*|.|*\n|...|\n.....");
+}

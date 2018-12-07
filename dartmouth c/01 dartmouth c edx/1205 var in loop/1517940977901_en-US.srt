@@ -1,0 +1,627 @@
+1
+00:00:00,000 --> 00:00:01,130
+
+
+2
+00:00:01,130 --> 00:00:03,750
+PROFESSOR: So far we have
+learned about variables.
+
+3
+00:00:03,750 --> 00:00:05,510
+And we have learned about loops.
+
+4
+00:00:05,510 --> 00:00:09,770
+I will now show you how to use
+variables in conjunction with loops.
+
+5
+00:00:09,770 --> 00:00:12,780
+To do so, let's look at
+the following scenario.
+
+6
+00:00:12,780 --> 00:00:14,930
+Suppose I'm taking a hike in the forest.
+
+7
+00:00:14,930 --> 00:00:17,360
+And I'm hiking for, say, nine miles.
+
+8
+00:00:17,360 --> 00:00:21,290
+Every mile I pick up three hazelnuts.
+
+9
+00:00:21,290 --> 00:00:27,130
+And I'd like to print out how many
+nuts I have in total, after each mile.
+
+10
+00:00:27,130 --> 00:00:29,980
+So to do so, I need to
+store two quantities--
+
+11
+00:00:29,980 --> 00:00:35,470
+how many nuts I have at any point in
+time, and how far I have traveled.
+
+12
+00:00:35,470 --> 00:00:37,000
+So let's do that.
+
+13
+00:00:37,000 --> 00:00:39,880
+Let's declare two
+integer-type variables, one
+
+14
+00:00:39,880 --> 00:00:44,940
+of them being the number of hazelnuts.
+
+15
+00:00:44,940 --> 00:00:49,360
+And whenever we declare a variable,
+remember we should also initialize it.
+
+16
+00:00:49,360 --> 00:00:50,620
+And initially I have none.
+
+17
+00:00:50,620 --> 00:00:52,990
+I haven't collected any hazelnuts yet.
+
+18
+00:00:52,990 --> 00:00:58,300
+And then another variable, that
+stores how far I have hiked so far.
+
+19
+00:00:58,300 --> 00:01:02,030
+So distanceTraveled.
+
+20
+00:01:02,030 --> 00:01:06,010
+And again, at the beginning of my hike
+I haven't traveled any kind of distance
+
+21
+00:01:06,010 --> 00:01:07,550
+yet.
+
+22
+00:01:07,550 --> 00:01:09,410
+So now every mile--
+
+23
+00:01:09,410 --> 00:01:13,670
+at mile 0, at mile 1, mile
+2, at mile 3, and so forth,
+
+24
+00:01:13,670 --> 00:01:18,060
+I would like to print out how many
+hazelnuts I have collected so far.
+
+25
+00:01:18,060 --> 00:01:19,880
+That sounds like a loop to me.
+
+26
+00:01:19,880 --> 00:01:23,530
+So let's paste in our
+typical loop statement--
+
+27
+00:01:23,530 --> 00:01:28,370
+for i equals 0, i less than 9.
+
+28
+00:01:28,370 --> 00:01:30,440
+I'm going to repeat
+this loop nine times.
+
+29
+00:01:30,440 --> 00:01:32,070
+That's why I put in 9 here--
+
+30
+00:01:32,070 --> 00:01:33,330
+i plus plus.
+
+31
+00:01:33,330 --> 00:01:37,780
+And we're going to need a closing
+brace, at the end of this loop.
+
+32
+00:01:37,780 --> 00:01:39,660
+And then we can put something in there.
+
+33
+00:01:39,660 --> 00:01:43,760
+Now remember, whenever we have this
+loop, the i that you see in here
+
+34
+00:01:43,760 --> 00:01:45,440
+is actually a variable.
+
+35
+00:01:45,440 --> 00:01:47,520
+We haven't really spoken
+of it as a variable.
+
+36
+00:01:47,520 --> 00:01:49,790
+But I need to declare
+this variable, just like I
+
+37
+00:01:49,790 --> 00:01:52,130
+need to declare any other old variable.
+
+38
+00:01:52,130 --> 00:01:54,480
+So we'll understand that more later.
+
+39
+00:01:54,480 --> 00:01:56,060
+For now, let's put it up there.
+
+40
+00:01:56,060 --> 00:01:57,560
+So here's my loop.
+
+41
+00:01:57,560 --> 00:01:59,620
+9 times I want to repeat something.
+
+42
+00:01:59,620 --> 00:02:01,690
+What is it that I want to repeat?
+
+43
+00:02:01,690 --> 00:02:05,000
+Well, I'd like to print out
+how many hazelnuts I have.
+
+44
+00:02:05,000 --> 00:02:12,350
+So I need a printf statement, that
+says that at so and so many miles,
+
+45
+00:02:12,350 --> 00:02:17,460
+and this percent d will be
+replaced by 0, 1, 2, 3, and so forth.
+
+46
+00:02:17,460 --> 00:02:21,790
+So at percent d miles, I have--
+and then whatever many hazelnuts
+
+47
+00:02:21,790 --> 00:02:22,290
+I have.
+
+48
+00:02:22,290 --> 00:02:24,960
+
+
+49
+00:02:24,960 --> 00:02:27,600
+And let's start a new
+line after each statement,
+
+50
+00:02:27,600 --> 00:02:29,100
+so we can read it more easily.
+
+51
+00:02:29,100 --> 00:02:34,770
+So now we can put in what these percent
+d's should be replaced with.
+
+52
+00:02:34,770 --> 00:02:37,470
+What's the distance traveled
+for the number of miles?
+
+53
+00:02:37,470 --> 00:02:41,580
+So distanceTraveled right here. 
+
+54
+00:02:41,580 --> 00:02:47,200
+And for the number of hazelnuts, I
+call that variable numberOfHazelnuts
+
+55
+00:02:47,200 --> 00:02:50,640
+
+
+56
+00:02:50,640 --> 00:02:51,400
+And that's it.
+
+57
+00:02:51,400 --> 00:02:53,310
+So that's a printf
+statement, that prints out
+
+58
+00:02:53,310 --> 00:02:57,390
+how many hazelnuts I have
+at a certain distance.
+
+59
+00:02:57,390 --> 00:03:00,310
+But now I need to
+update these variables.
+
+60
+00:03:00,310 --> 00:03:03,830
+Initially, I initialized them as 0.
+
+61
+00:03:03,830 --> 00:03:06,480
+But they don't stay 0.
+
+62
+00:03:06,480 --> 00:03:11,410
+After the first mile, I have
+actually collected some hazelnuts.
+
+63
+00:03:11,410 --> 00:03:15,720
+So I need to change what's
+stored in numberOfHazelnuts
+
+64
+00:03:15,720 --> 00:03:18,940
+as well as change my distance traveled.
+
+65
+00:03:18,940 --> 00:03:21,900
+So after each printf statement,
+I need to actually increased
+
+66
+00:03:21,900 --> 00:03:25,290
+distance traveled by 1, so that I'm
+getting ready for the next printf
+
+67
+00:03:25,290 --> 00:03:26,250
+statement.
+
+68
+00:03:26,250 --> 00:03:28,206
+So, how do I do that?
+
+69
+00:03:28,206 --> 00:03:32,215
+I write distanceTraveled equals
+
+70
+00:03:32,215 --> 00:03:36,660
+And now I need to state
+an output statement.
+
+71
+00:03:36,660 --> 00:03:40,830
+distanceTraveled plus 1.
+
+72
+00:03:40,830 --> 00:03:42,620
+And that looks really weird, right?
+
+73
+00:03:42,620 --> 00:03:44,370
+That doesn't seem mathematically true.
+
+74
+00:03:44,370 --> 00:03:47,550
+You can't say distanceTraveled
+equals distanceTraveled plus 1.
+
+75
+00:03:47,550 --> 00:03:50,760
+But remember, this equal sign
+is not a mathematical equality,
+
+76
+00:03:50,760 --> 00:03:52,140
+it's an assignment statement.
+
+77
+00:03:52,140 --> 00:03:57,180
+It means that we take the right-hand
+side, evaluate what's on the right,
+
+78
+00:03:57,180 --> 00:04:02,400
+and assign the result of the
+evaluation to the variable on the left.
+
+79
+00:04:02,400 --> 00:04:04,890
+So the first time we're in
+this loop, distanceTraveled
+
+80
+00:04:04,890 --> 00:04:07,500
+is still 0, from my initialization.
+
+81
+00:04:07,500 --> 00:04:10,240
+So this variable here
+has the value of 0.
+
+82
+00:04:10,240 --> 00:04:12,630
+We've taken that 0 by adding 1 to it.
+
+83
+00:04:12,630 --> 00:04:15,630
+So the right-hand side evaluates to 1.
+
+84
+00:04:15,630 --> 00:04:18,300
+And that value is now assigned
+to distanceTraveled.
+
+85
+00:04:18,300 --> 00:04:21,740
+In other words, distanceTraveled
+is updated with the value 1,
+
+86
+00:04:21,740 --> 00:04:23,600
+if it previously was 0.
+
+87
+00:04:23,600 --> 00:04:28,690
+If it previously was 1, then it would
+be updated with a value 2, and so forth.
+
+88
+00:04:28,690 --> 00:04:33,820
+So this statement updates distanceTraveled,
+by increasing it by 1.
+
+89
+00:04:33,820 --> 00:04:38,325
+Similarly, my numberOfHazelnuts
+ needs to be updated.
+
+90
+00:04:38,325 --> 00:04:40,170
+And how does it need to be updated?
+
+91
+00:04:40,170 --> 00:04:43,770
+Well, I collect three hazelnuts
+for every mile that I travel.
+
+92
+00:04:43,770 --> 00:04:47,460
+So I need to add 3 to the
+current numberOfHazelnuts,
+
+93
+00:04:47,460 --> 00:04:50,850
+in order to get the new
+number of hazelnuts.
+
+94
+00:04:50,850 --> 00:04:56,480
+numberOfHazelnuts plus 3.
+
+95
+00:04:56,480 --> 00:05:01,630
+And now I have upgraded both of my
+variables, and my loop is complete.
+
+96
+00:05:01,630 --> 00:05:05,480
+I'm printing how many hazelnuts
+I have at a certain mile.
+
+97
+00:05:05,480 --> 00:05:08,960
+And then I'm updating my distanceTraveled
+and my numberOfHazelnuts,
+
+98
+00:05:08,960 --> 00:05:12,260
+to get ready for the next printf.
+
+99
+00:05:12,260 --> 00:05:14,480
+Let's compile and run this code.
+
+100
+00:05:14,480 --> 00:05:17,810
+
+
+101
+00:05:17,810 --> 00:05:22,380
+And it says at 0 miles I have 0
+hazelnuts, and a lot of other stuff.
+
+102
+00:05:22,380 --> 00:05:24,650
+Let's go through this slowly.
+
+103
+00:05:24,650 --> 00:05:28,010
+Remember, initially the
+numberOfHazelnuts is 0,
+
+104
+00:05:28,010 --> 00:05:29,510
+and the distanceTraveled is 0.
+
+105
+00:05:29,510 --> 00:05:31,520
+That's how I enter my loop.
+
+106
+00:05:31,520 --> 00:05:35,660
+So the first time I get to this printf
+statement, distanceTraveled is 0,
+
+107
+00:05:35,660 --> 00:05:37,280
+and numberOfHazelnuts is 0.
+
+108
+00:05:37,280 --> 00:05:39,950
+And that's why it
+prints out at 0 miles I
+
+109
+00:05:39,950 --> 00:05:44,430
+have 0 hazelnuts-- the first statement
+you see in the terminal window.
+
+110
+00:05:44,430 --> 00:05:49,260
+Next, I update distanceTraveled by
+adding 1 to the old value of
+
+111
+00:05:49,260 --> 00:05:49,760
+distanceTraveled.
+
+112
+00:05:49,760 --> 00:05:51,410
+So 0 plus 1 is 1.
+
+113
+00:05:51,410 --> 00:05:53,990
+distanceTraveled now has the value 1.
+
+114
+00:05:53,990 --> 00:05:58,075
+And the numberOfHazelnuts is updated
+by adding 3 to the old value of 0.
+
+115
+00:05:58,075 --> 00:06:00,020
+So 0 plus 3 is 3.
+
+116
+00:06:00,020 --> 00:06:04,010
+So distanceTraveled and numberOfHazelnuts
+now have the value of 1 and 3
+
+117
+00:06:04,010 --> 00:06:05,420
+respectively.
+
+118
+00:06:05,420 --> 00:06:08,030
+And a loop means that
+these three statements
+
+119
+00:06:08,030 --> 00:06:10,310
+are being repeated over
+and over, and over again.
+
+120
+00:06:10,310 --> 00:06:13,210
+So next I get back to
+this printf statement.
+
+121
+00:06:13,210 --> 00:06:15,780
+But this time the new values
+are going to be printed.
+
+122
+00:06:15,780 --> 00:06:20,230
+So it's going to print out
+at 1 mile I have 3 hazelnuts.
+
+123
+00:06:20,230 --> 00:06:23,330
+And that's what you see in the
+second line that got printed out.
+
+124
+00:06:23,330 --> 00:06:25,700
+Then, distanceTraveled
+is updated again.
+
+125
+00:06:25,700 --> 00:06:27,470
+Now it becomes 2.
+
+126
+00:06:27,470 --> 00:06:31,040
+numberOfHazelnuts is updated
+to have the value is 6.
+
+127
+00:06:31,040 --> 00:06:35,200
+And we get back to the next iteration
+of the loop, with a printf statement.
+
+128
+00:06:35,200 --> 00:06:38,700
+It now prints, at 2
+miles I have 6 hazelnuts.
+
+129
+00:06:38,700 --> 00:06:41,810
+And it keeps going and going, and
+going and going like that, until I
+
+130
+00:06:41,810 --> 00:06:45,260
+get to, at 8 miles I have 24 hazelnuts.
+
+131
+00:06:45,260 --> 00:06:46,390
+Why's that stop at 8?
+
+132
+00:06:46,390 --> 00:06:49,230
+I wanted this loop repeated nine times.
+
+133
+00:06:49,230 --> 00:06:53,838
+Well, it actually did repeat nine
+times, because we started at 0.
+
+134
+00:06:53,838 --> 00:06:57,860
+So 0 was printed out during the
+first iteration of the loop.
+
+135
+00:06:57,860 --> 00:07:01,400
+One gets printed out during the
+second iteration, and so forth.
+
+136
+00:07:01,400 --> 00:07:04,610
+8 gets printed out during the
+ninth iteration of the loop.
+
+137
+00:07:04,610 --> 00:07:09,740
+So the loop was indeed
+executed nine times.
+
+138
+00:07:09,740 --> 00:07:14,440
+So this is how we can use
+variables inside loops.

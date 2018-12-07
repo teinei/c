@@ -1,0 +1,16 @@
+//activity
+//1206c.c
+#include<stdio.h>
+int main(){
+  //
+  int i,n;
+  scanf("%d",n);
+  for(i=0;i<=10;i++){
+    //
+    int product = i*n;
+    printf("%dx8 = %d\n",i,product);
+    //
+  }
+  //
+  return 0;
+}

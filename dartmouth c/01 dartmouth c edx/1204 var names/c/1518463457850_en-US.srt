@@ -1,0 +1,417 @@
+1
+00:00:00,000 --> 00:00:00,900
+
+
+2
+00:00:00,900 --> 00:00:04,950
+PROFESSOR: Let me show you the most
+common errors when you use variables
+
+3
+00:00:04,950 --> 00:00:06,850
+with a compiler.
+
+4
+00:00:06,850 --> 00:00:13,260
+Here we have a simple program
+that do a declaration here
+
+5
+00:00:13,260 --> 00:00:17,880
+of a variable, and then a definition.
+
+6
+00:00:17,880 --> 00:00:20,240
+And then we use it here.
+
+7
+00:00:20,240 --> 00:00:23,820
+If we compile and run,
+we have in the terminal,
+
+8
+00:00:23,820 --> 00:00:25,880
+I have $40 dollars in my account.
+
+9
+00:00:25,880 --> 00:00:27,090
+Good.
+
+10
+00:00:27,090 --> 00:00:31,570
+Let's try to forget the
+type definition here-- int.
+
+11
+00:00:31,570 --> 00:00:35,910
+So I only have the name of the
+variable for the declaration, which
+
+12
+00:00:35,910 --> 00:00:37,680
+is quite an error.
+
+13
+00:00:37,680 --> 00:00:42,000
+If I compile, well, I get
+multiple messages here.
+
+14
+00:00:42,000 --> 00:00:45,240
+Let me copy-paste to
+understand what's happening.
+
+15
+00:00:45,240 --> 00:00:49,800
+First one is error, use of
+undeclared identifier balance,
+
+16
+00:00:49,800 --> 00:00:53,190
+and this is line number three.
+
+17
+00:00:53,190 --> 00:00:57,360
+Indeed, line number three, there
+is only the name of the variable.
+
+18
+00:00:57,360 --> 00:01:02,420
+So the compiler thinks that we
+want to use a variable that exists,
+
+19
+00:01:02,420 --> 00:01:04,980
+that was already declared,
+but it's not declared
+
+20
+00:01:04,980 --> 00:01:09,150
+because, we didn't defined the
+
+21
+00:01:09,150 --> 00:01:14,370
+type, which means that
+we forgot to put int
+
+22
+00:01:14,370 --> 00:01:17,640
+to declare the type of the variable.
+
+23
+00:01:17,640 --> 00:01:20,070
+All right, so that's the first error.
+
+24
+00:01:20,070 --> 00:01:22,080
+If I compile now, it should be OK.
+
+25
+00:01:22,080 --> 00:01:24,540
+Yeah. It's run OK.
+
+26
+00:01:24,540 --> 00:01:30,310
+Second one I want to show you
+is I forget the definition.
+
+27
+00:01:30,310 --> 00:01:34,720
+So I just get rid of this line,
+and I have only the declaration.
+
+28
+00:01:34,720 --> 00:01:37,050
+And then we use the variable.
+
+29
+00:01:37,050 --> 00:01:41,520
+If I compile, then I
+have also messages here.
+
+30
+00:01:41,520 --> 00:01:47,220
+Let me copy paste to show
+you what's happening.
+
+31
+00:01:47,220 --> 00:01:52,560
+Going back to Edit mode
+Here it's a warning--
+
+32
+00:01:52,560 --> 00:01:58,820
+warning, variable balance is
+uninitialized when used here.
+
+33
+00:01:58,820 --> 00:02:02,660
+So you can see here that
+when we use the variable--
+
+34
+00:02:02,660 --> 00:02:06,190
+well, we use it, but we
+didn't put any value in it.
+
+35
+00:02:06,190 --> 00:02:10,350
+So what's happening here
+is that by default, it
+
+36
+00:02:10,350 --> 00:02:14,010
+will put a 0 because we
+didn't put any value.
+
+37
+00:02:14,010 --> 00:02:20,400
+This is absolutely not true with
+standard compilers of C,
+
+38
+00:02:20,400 --> 00:02:25,570
+professional C compiler, they
+won't put any value at all.
+
+39
+00:02:25,570 --> 00:02:28,000
+So you would have a random value.
+
+40
+00:02:28,000 --> 00:02:32,640
+So you'll have to be very, very
+careful if you have this warning.
+
+41
+00:02:32,640 --> 00:02:39,280
+And if you use variables that are not
+defined or you forget to put a value,
+
+42
+00:02:39,280 --> 00:02:43,650
+then in the codecast,
+and in some compilers,
+
+43
+00:02:43,650 --> 00:02:46,740
+sometimes it will have
+a 0 by default. This
+
+44
+00:02:46,740 --> 00:02:51,310
+is absolutely not true with all the
+compilers, professional compilers.
+
+45
+00:02:51,310 --> 00:02:54,720
+It will have random values.
+
+46
+00:02:54,720 --> 00:02:58,110
+So it's very important to see
+this warning and to correct them
+
+47
+00:02:58,110 --> 00:02:59,560
+when you have them.
+
+48
+00:02:59,560 --> 00:03:02,940
+So here, when you use a
+variable that is uninitialized,
+
+49
+00:03:02,940 --> 00:03:05,100
+well, you should initialize it.
+
+50
+00:03:05,100 --> 00:03:08,430
+Meaning that you should
+put a value, meaning
+
+51
+00:03:08,430 --> 00:03:11,890
+that you should define --definition--
+
+52
+00:03:11,890 --> 00:03:15,865
+define a value for the
+first time initialization.
+
+53
+00:03:15,865 --> 00:03:17,080
+All right.
+
+54
+00:03:17,080 --> 00:03:22,680
+So now if I compile
+and run, it works OK.
+
+55
+00:03:22,680 --> 00:03:27,180
+Something else-- if you use lower
+case and upper case and you mix them--
+
+56
+00:03:27,180 --> 00:03:30,700
+for example here, let's
+put a B uppercase.
+
+57
+00:03:30,700 --> 00:03:31,200
+Compile.
+
+58
+00:03:31,200 --> 00:03:35,610
+File and here we have multiple messages.
+
+59
+00:03:35,610 --> 00:03:37,980
+Let me copy paste them.
+
+60
+00:03:37,980 --> 00:03:44,280
+The first error is use of
+undeclared identifier balance,
+
+61
+00:03:44,280 --> 00:03:46,450
+and look at here what's written--
+
+62
+00:03:46,450 --> 00:03:51,430
+did you mean balance with a B uppercase?
+
+63
+00:03:51,430 --> 00:03:55,740
+So it's pretty smart
+here, because it knows
+
+64
+00:03:55,740 --> 00:04:00,440
+that you have a declaration of
+a variable with a B uppercase.
+
+65
+00:04:00,440 --> 00:04:03,180
+
+
+66
+00:04:03,180 --> 00:04:07,090
+The other one we won't
+go into the details.
+
+67
+00:04:07,090 --> 00:04:12,990
+So here we can see directly that
+we have to use a lowercase B. I guess
+
+68
+00:04:12,990 --> 00:04:16,990
+if we do the same with
+definition, if I compile,
+
+69
+00:04:16,990 --> 00:04:19,829
+will I have the same kind of messages?
+
+70
+00:04:19,829 --> 00:04:21,589
+Use of undeclared identifier balance?
+
+71
+00:04:21,589 --> 00:04:24,780
+Did you mean balance
+with a B, lowercase?
+
+72
+00:04:24,780 --> 00:04:30,030
+So this is quite explicit and
+would be very easy to figure out.
+
+73
+00:04:30,030 --> 00:04:40,510
+Also, something else-- if I
+declare one with a B lowercase,
+
+74
+00:04:40,510 --> 00:04:46,680
+and declaration two, and another
+one with a B uppercase, then I
+
+75
+00:04:46,680 --> 00:04:55,020
+define the first one, and
+I define a second one,
+
+76
+00:04:55,020 --> 00:05:01,510
+and then I use the first
+and the second one.
+
+77
+00:05:01,510 --> 00:05:06,980
+Look what happens here
+if I compile and run.
+
+78
+00:05:06,980 --> 00:05:10,960
+Where you can see that
+it is case sensitive,
+
+79
+00:05:10,960 --> 00:05:16,110
+meaning that we have two
+variables, one with a b lowercase,
+
+80
+00:05:16,110 --> 00:05:20,950
+one with a B uppercase, and
+both of them are working.
+
+81
+00:05:20,950 --> 00:05:27,660
+So you have to be very sure of using
+lower or uppercase letters when
+
+82
+00:05:27,660 --> 00:05:30,150
+you name the variables.
+
+83
+00:05:30,150 --> 00:05:33,960
+That's pretty much all I have to
+say when you use the variables,
+
+84
+00:05:33,960 --> 00:05:36,900
+and all the different
+errors you can have.
+
+85
+00:05:36,900 --> 00:05:41,160
+Maybe you can try to have
+a different kind of error.
+
+86
+00:05:41,160 --> 00:05:44,730
+So try to do something
+here to get an error
+
+87
+00:05:44,730 --> 00:05:47,070
+and try to see if you
+understand the error.
+
+88
+00:05:47,070 --> 00:05:54,390
+You should try to generate new kind
+of errors and tell us in the forum
+
+89
+00:05:54,390 --> 00:05:57,110
+if you found some of them.
+
+90
+00:05:57,110 --> 00:05:58,366
