@@ -1,0 +1,472 @@
+1
+00:00:00,000 --> 00:00:00,500
+
+
+2
+00:00:00,500 --> 00:00:05,240
+PROFESSOR: I'm going to show you how
+to read multiple things from the input
+
+3
+00:00:05,240 --> 00:00:08,150
+using a for repetition loop.
+
+4
+00:00:08,150 --> 00:00:14,350
+First, I'm going to need
+a variable, howMany.
+
+5
+00:00:14,350 --> 00:00:16,606
+Let's put 0 for the moment.
+
+6
+00:00:16,606 --> 00:00:22,520
+howMany is how many things, how many
+items I want to read from the input.
+
+7
+00:00:22,520 --> 00:00:26,090
+And I will need the sum,
+because the thing I want to do
+
+8
+00:00:26,090 --> 00:00:28,430
+is, I want to add all
+the things that were
+
+9
+00:00:28,430 --> 00:00:34,640
+read from the input and output
+the sum of all the things read.
+
+10
+00:00:34,640 --> 00:00:41,770
+Then I will need a third variable,
+which is the number that was read.
+
+11
+00:00:41,770 --> 00:00:48,170
+And I'm going to show you how to
+use a for loop, for repetition loop
+
+12
+00:00:48,170 --> 00:00:54,830
+to do multiple scanf to read what's
+inside the terminal multiple times.
+
+13
+00:00:54,830 --> 00:01:00,060
+So here, before I start
+the repetition loop,
+
+14
+00:01:00,060 --> 00:01:06,920
+I have to ask how many items
+will be read from the input.
+
+15
+00:01:06,920 --> 00:01:11,240
+So I ask this with a scanf.
+
+16
+00:01:11,240 --> 00:01:12,920
+First, I can put a printf.
+
+17
+00:01:12,920 --> 00:01:26,720
+And I can ask, how many
+items do you want to add?
+
+18
+00:01:26,720 --> 00:01:27,590
+Let's say that.
+
+19
+00:01:27,590 --> 00:01:30,570
+Right.
+
+20
+00:01:30,570 --> 00:01:35,370
+So then I do the scanf
+%d, and I read the value,
+
+21
+00:01:35,370 --> 00:01:39,930
+and I put the value in
+the variable howMany.
+
+22
+00:01:39,930 --> 00:01:44,020
+So that would be ampersand howMany.
+
+23
+00:01:45,020 --> 00:01:45,800
+Right.
+
+24
+00:01:45,900 --> 00:01:51,870
+So now I know how many
+times I want to repeat
+
+25
+00:01:51,870 --> 00:01:57,600
+another scanf that will read all of
+the stuff I put in the input terminal.
+
+26
+00:01:57,600 --> 00:02:00,030
+So I can use the for repetition loop.
+
+27
+00:02:00,030 --> 00:02:04,270
+
+
+28
+00:02:04,270 --> 00:02:06,950
+And I will repeat, how many times?
+
+29
+00:02:06,950 --> 00:02:11,500
+Well, howMany, which is
+the variable howMany.
+
+30
+00:02:11,500 --> 00:02:15,110
+
+
+31
+00:02:15,110 --> 00:02:18,920
+What will I repeat in this loop?
+
+32
+00:02:18,920 --> 00:02:25,200
+Well, I will read all of
+the values from the input.
+
+33
+00:02:25,200 --> 00:02:29,370
+So that would be a
+scanf, again, with a %d.
+
+34
+00:02:29,370 --> 00:02:35,300
+And I will put what I have read
+in the variable numberRead.
+
+35
+00:02:35,300 --> 00:02:38,970
+
+
+36
+00:02:38,970 --> 00:02:44,800
+And this number that I've just
+read, I will first printf it.
+
+37
+00:02:44,800 --> 00:02:56,640
+I have read %d from the input
+terminal, and then \n.
+
+38
+00:02:56,640 --> 00:02:59,700
+And the %d is the numberRead.
+
+39
+00:02:59,700 --> 00:03:02,270
+
+
+40
+00:03:02,270 --> 00:03:09,720
+And then, what I want to do, is I want
+to add all of the things that I've read
+
+41
+00:03:09,720 --> 00:03:11,880
+and to put the result in the sum.
+
+42
+00:03:11,880 --> 00:03:14,080
+So the sum will be--
+
+43
+00:03:14,080 --> 00:03:16,050
+well, the old sum.
+
+44
+00:03:16,050 --> 00:03:19,580
+For example here, at
+the beginning, it's 0.
+
+45
+00:03:19,580 --> 00:03:22,370
+Then it will be the
+new value of the sum.
+
+46
+00:03:22,370 --> 00:03:28,350
+And I will add to the sum the number
+that I've just read from the input.
+
+47
+00:03:28,350 --> 00:03:36,270
+And then I will printf sum
+equals %d, and new line.
+
+48
+00:03:36,270 --> 00:03:42,190
+And the %d is the value
+of the variable sum.
+
+49
+00:03:42,190 --> 00:03:43,170
+All right.
+
+50
+00:03:43,170 --> 00:03:48,390
+Let's try to compile
+and run this program.
+
+51
+00:03:48,390 --> 00:03:52,190
+So first, I have, "How many
+items do you want to add?"
+
+52
+00:03:52,190 --> 00:03:55,220
+I want to add three items.
+
+53
+00:03:55,220 --> 00:03:57,500
+And I type Enter.
+
+54
+00:03:57,500 --> 00:04:00,600
+Then I go into the repetition loop.
+
+55
+00:04:00,600 --> 00:04:04,790
+And as you can see here,
+the sum is equal to 0.
+
+56
+00:04:04,790 --> 00:04:09,440
+The numberRead, first, is
+equal to 0, and i is 0.
+
+57
+00:04:09,440 --> 00:04:14,570
+It's the first time I repeat
+the instructions in the loop.
+
+58
+00:04:14,570 --> 00:04:18,620
+So the first item I want to add is 10.
+
+59
+00:04:18,620 --> 00:04:22,620
+So I put 10 in the
+terminal, and I put Enter.
+
+60
+00:04:22,620 --> 00:04:27,790
+And see that the instructions,
+where the printf, then the new sum
+
+61
+00:04:27,790 --> 00:04:29,680
+calculation, and another printf.
+
+62
+00:04:29,680 --> 00:04:34,330
+And the output is, "I have read
+10 from the input terminal,
+
+63
+00:04:34,330 --> 00:04:36,250
+and the sum equals 10."
+
+64
+00:04:36,250 --> 00:04:41,380
+And then we repeat the instructions,
+and we go back to the scanf.
+
+65
+00:04:41,380 --> 00:04:45,760
+So the second item I want to add is 4.
+
+66
+00:04:45,760 --> 00:04:48,280
+So I put 4, and I type Enter.
+
+67
+00:04:48,280 --> 00:04:54,010
+And then in the output, "I have
+read 4 from the input terminal,
+
+68
+00:04:54,010 --> 00:04:56,170
+and the sum equals 14."
+
+69
+00:04:56,170 --> 00:04:57,160
+Why?
+
+70
+00:04:57,160 --> 00:05:02,920
+Because the old sum was
+10, and then we added
+
+71
+00:05:02,920 --> 00:05:05,570
+4 that was just read from the input.
+
+72
+00:05:05,570 --> 00:05:07,900
+So the sum equals 14 now.
+
+73
+00:05:07,900 --> 00:05:12,070
+And then we repeat a third time, because
+how many items do we want to add?
+
+74
+00:05:12,070 --> 00:05:12,790
+Three.
+
+75
+00:05:12,790 --> 00:05:16,600
+So it is the third time
+we do the for loop.
+
+76
+00:05:16,600 --> 00:05:21,260
+And here, I want to add 2.
+
+77
+00:05:21,260 --> 00:05:23,510
+And then I press Enter.
+
+78
+00:05:23,510 --> 00:05:27,920
+And in the output, I can see, "I
+have read 2 from the input terminal,
+
+79
+00:05:27,920 --> 00:05:38,310
+and the sum equals 16," which is the old
+sum value, 14, plus 2, which equals 16.
+
+80
+00:05:38,310 --> 00:05:43,850
+So now I want, really, you
+to test it by yourself.
+
+81
+00:05:43,850 --> 00:05:47,450
+It's very important here that
+you test this program yourself
+
+82
+00:05:47,450 --> 00:05:50,210
+and that you understand
+what's happening here,
+
+83
+00:05:50,210 --> 00:05:53,240
+and that you understand
+what we do, exactly,
+
+84
+00:05:53,240 --> 00:05:55,910
+when we repeat the instructions here.
+
+85
+00:05:55,910 --> 00:06:01,760
+You have to understand that we read
+a number, and then with the number
+
+86
+00:06:01,760 --> 00:06:07,070
+that we've just read, we
+add it to the sum variable.
+
+87
+00:06:07,070 --> 00:06:09,750
+But the sum variable is also used here.
+
+88
+00:06:09,750 --> 00:06:16,010
+So we have the old sum variable,
+and we added the new read number.
+
+89
+00:06:16,010 --> 00:06:21,030
+And we really have to understand
+what's happening here.
+
+90
+00:06:21,030 --> 00:06:26,750
+So please try it by yourself
+with your own numbers
+
+91
+00:06:26,750 --> 00:06:30,500
+and try to understand
+what's happening here.
+
+92
+00:06:30,500 --> 00:06:34,700
+For example, try to
+understand this for loop.
+
+93
+00:06:34,700 --> 00:06:39,590
+And you can see here that I
+changed with howMany variable, so
+
+94
+00:06:39,590 --> 00:06:44,360
+that we can repeat a
+certain number of times that
+
+95
+00:06:44,360 --> 00:06:49,160
+will be defined with the value
+that is read from the first scanf,
+
+96
+00:06:49,160 --> 00:06:52,940
+answering the questions, "How
+many items do we want to add?"
+
+97
+00:06:52,940 --> 00:06:57,650
+And this is the answer
+from the input terminal.
+
+98
+00:06:57,650 --> 00:07:02,840
+The user said how many times he
+wants to repeat this for loop.
+
+99
+00:07:02,840 --> 00:07:06,930
+And within the repetition, then,
+you have multiple instructions.
+
+100
+00:07:06,930 --> 00:07:09,940
+So let's try it by yourself.
+
+101
+00:07:09,940 --> 00:07:14,030
+And let's try it with
+other values as the input.
+
+102
+00:07:14,030 --> 00:07:16,170
+Do it right now.
+
+103
+00:07:16,170 --> 00:07:16,798

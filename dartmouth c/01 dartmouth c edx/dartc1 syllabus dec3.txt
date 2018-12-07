@@ -21,13 +21,13 @@
     1106b Activity: print special characters
     1106c A question on this activity?
   1107 Repeating one instruction with a for loop
-    Repeat one instruction with a for loop
-    Activity: use a for-loop to print a line multiple times
-    A question on this activity?
+    a Repeat one instruction with a for loop
+    b Activity: use a for-loop to print a line multiple times
+    c A question on this activity?
   1108 Simple looping errors
-    Discover the effect of simple looping errors
-    Activity: correct simple errors in loops with missing braces
-    A question on this activity?
+    a Discover the effect of simple looping errors
+    b Activity: correct simple errors in loops with missing braces
+    c A question on this activity?
   1109 Commenting your code
     a Comment on one dedicated line
     b Comment at the end of an instruction
@@ -36,9 +36,9 @@
     e Activity: add comments to existing code
     f A question on this activity?
   11x0 Structure of a simple C program
-    Structure a simple C program
-    Activity: put lines in the correct order
-    A question on this activity?
+    a Structure a simple C program
+    b Activity: put lines in the correct order
+    c A question on this activity?
   11x1 Learning checklist
 ===================================================
  Unit 1.2: Integers, variables and user input
@@ -71,9 +71,9 @@
     c Activity: read an integer and print the corresponding multiplication table
     d A question on this activity?
   1207 Reading user input inside a loop
-    Use scanf() inside a loop to read multiple user inputs
-    Activity: read and process multiple integers via a loop
-    A question on this activity?
+    a Use scanf() inside a loop to read multiple user inputs
+    b Activity: read and process multiple integers via a loop
+    c A question on this activity?
   1208 Learning checklist
     Self-assess your learning
 ===================================================
