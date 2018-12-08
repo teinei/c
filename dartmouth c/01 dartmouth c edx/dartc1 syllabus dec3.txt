@@ -80,10 +80,10 @@
  Unit 1.3: Characters and doubles
   Introducing Unit 1.3
     What you will learn in this unit
-  Using characters
-    Declare, assign and print characters with the %c format specifier
-    Activity: print characters with %c
-    A question on this activity?
+  1301 Using characters
+    a Declare, assign and print characters with the %c format specifier
+    b Activity: print characters with %c
+    c A question on this activity?
   Reading characters from the user input
     Read characters from the user input
     Activity: read characters from user input and produce ASCII art!

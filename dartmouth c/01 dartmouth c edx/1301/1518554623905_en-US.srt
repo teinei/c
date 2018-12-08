@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:00,830
+
+
+2
+00:00:00,830 --> 00:00:04,210
+PROFESSOR: Let's introduce
+a new type of variable.
+
+3
+00:00:04,210 --> 00:00:07,270
+This type is the character variable.
+
+4
+00:00:07,270 --> 00:00:16,059
+So to declare a variable that is of
+type character, I just type C-H-A-R.
+
+5
+00:00:16,059 --> 00:00:19,940
+And then the name of the
+variable, like letter.
+
+6
+00:00:19,940 --> 00:00:26,410
+And that's how you declare
+a character variable.
+
+7
+00:00:26,410 --> 00:00:29,650
+
+
+8
+00:00:29,650 --> 00:00:32,680
+How do you assign this variable?
+
+9
+00:00:32,680 --> 00:00:35,040
+Well, let me show you.
+
+10
+00:00:35,040 --> 00:00:43,330
+You always use the assignment operator
+and then we use the simple quote.
+
+11
+00:00:43,330 --> 00:00:46,300
+So I typed the simple
+quote, and as you can see,
+
+12
+00:00:46,300 --> 00:00:51,110
+the editor is giving me the
+closing quote corresponding.
+
+13
+00:00:51,110 --> 00:00:57,550
+And between these simple quotes,
+I can put a character, like a
+
+14
+00:00:57,550 --> 00:01:00,250
+for example.
+
+15
+00:01:00,250 --> 00:01:12,760
+So that's how you define, or
+initialize, or assign a character value.
+
+16
+00:01:12,760 --> 00:01:16,730
+
+
+17
+00:01:16,730 --> 00:01:23,480
+Now, how do you print in the
+output, this type of variable?
+
+18
+00:01:23,480 --> 00:01:33,500
+Well, in the printf, I can say
+the letter is and I use the format
+
+19
+00:01:33,500 --> 00:01:37,040
+percent c for character.
+
+20
+00:01:37,040 --> 00:01:41,070
+And then, as for integer,
+I put the variable name.
+
+21
+00:01:41,070 --> 00:01:43,712
+So for example here, letter.
+
+22
+00:01:43,712 --> 00:01:44,690
+Let's try it.
+
+23
+00:01:44,690 --> 00:01:48,020
+Let's compile and run the program.
+
+24
+00:01:48,020 --> 00:01:52,790
+And the terminal, you see
+the output, the letter is a.
+
+25
+00:01:52,790 --> 00:01:56,450
+So that's how you declare
+a character variable.
+
+26
+00:01:56,450 --> 00:02:00,440
+And with simple quotes, how you
+define or assign a correct value
+
+27
+00:02:00,440 --> 00:02:05,240
+to a character variable and
+with the percent c
+
+28
+00:02:05,240 --> 00:02:08,720
+this is how you print this variable.
+
+29
+00:02:08,720 --> 00:02:15,520
+Let's try it by yourself and replace
+it with the character of your choice.
+
+30
+00:02:15,520 --> 00:02:16,030
